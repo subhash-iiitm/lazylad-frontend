@@ -49,94 +49,35 @@ hr.small {
   border-width: 4px;
   border-color: white;
 }
-
-.navbar-custom {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 3;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-.navbar-custom .navbar-brand {
-  font-weight: 800;
-}
-.navbar-custom .nav li a {
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 1px;
-}
-@media only screen and (min-width: 768px) {
-  .navbar-custom {
-    background: transparent;
-    border-bottom: 1px solid transparent;
-  }
-  .navbar-custom .navbar-brand {
-    color: white;
-    padding: 20px;
-  }
+.navbar-custom{position:absolute;top:0;left:0;width:100%;z-index:3;font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif}
+.navbar-custom .navbar-brand{font-weight:800}
+.navbar-custom .nav li a{text-transform:uppercase;font-size:12px;font-weight:800;letter-spacing:1px}
+@media only screen and (min-width:768px){.navbar-custom{background:0 0;border-bottom:1px solid transparent}
+  .navbar-custom .navbar-brand{color:#595959;padding:20px}
   .navbar-custom .navbar-brand:hover,
-  .navbar-custom .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.8);
-  }
-  .navbar-custom .nav li a {
-    color: black;
-    padding: 20px;
-  }
-  .navbar-custom .nav li a:hover,
-  .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8);
-  }
-}
-@media only screen and (min-width: 1170px) {
-  .navbar-custom {
-    -webkit-transition: background-color 0.3s;
-    -moz-transition: background-color 0.3s;
-    transition: background-color 0.3s;
-    /* Force Hardware Acceleration in WebKit */
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
-    -o-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  .navbar-custom.is-fixed {
-    /* when the user scrolls down, we hide the header right above the viewport */
-    position: fixed;
-    top: -61px;
-    background: transparent;
-    border-bottom: 1px solid transparent;
+  .navbar-custom .navbar-brand:focus{color:#595959}
+  .navbar-custom .nav li a{color:#000000;padding:20px}
+  .navbar-custom .nav li a:hover,.navbar-custom .nav li a:focus
+  {color:#595959}}
+@media only screen and (min-width:1170px){
+  .navbar-custom{-webkit-transition:background-color .3s;-moz-transition:background-color .3s;
+    transition:background-color .3s;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-webkit-backface-visibility:hidden;backface-visibility:hidden}
+  .navbar-custom.is-fixed{
+    position:fixed;
+    top:-61px;
+    background-color: rgba(13, 4, 11, 0.64);
+    border-bottom:1px solid rgba(2, 1, 1, 0.91);
+    -webkit-transition:-webkit-transform .3s;-moz-transition:-moz-transform .3s;transition:transform .3s}
+  .navbar-custom.is-fixed .navbar-brand{color:#404040}
+  .navbar-custom.is-fixed
+  .navbar-brand:hover,
+  .navbar-custom.is-fixed
+  .navbar-brand:focus{color:#0085a1}
+  .navbar-custom.is-fixed .nav li a{color:#fff}
+  .navbar-custom.is-fixed .nav li a:hover,.navbar-custom.is-fixed .nav li a:focus{color:#0085a1}.navbar-custom.is-visible{-webkit-transform:translate3d(0,100%,0);-moz-transform:translate3d(0,100%,0);-ms-transform:translate3d(0,100%,0);-o-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}
 
-    -webkit-transition: -webkit-transform 0.3s;
-    -moz-transition: -moz-transform 0.3s;
-    transition: transform 0.3s;
-  }
-  .navbar-custom.is-fixed .navbar-brand {
-    color: #404040;
-  }
-  .navbar-custom.is-fixed .navbar-brand:hover,
-  .navbar-custom.is-fixed .navbar-brand:focus {
-    color: #0085a1;
-  }
-  .navbar-custom.is-fixed .nav li a {
-    color: #404040;
-  }
-  .navbar-custom.is-fixed .nav li a:hover,
-  .navbar-custom.is-fixed .nav li a:focus {
-    color: #0085a1;
-  }
-  .navbar-custom.is-visible {
-    /* if the user changes the scrolling direction, we show the header */
-    -webkit-transform: translate3d(0, 100%, 0);
-    -moz-transform: translate3d(0, 100%, 0);
-    -ms-transform: translate3d(0, 100%, 0);
-    -o-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-}
+
+
 .intro-header {
   background-color: #808080;
   background: no-repeat center center;
@@ -349,6 +290,7 @@ form .row:first-child .floating-label-form-group {
   border: 1px solid #0085a1;
   color: white;
 }
+
 .pager {
   margin: 20px 0 0;
 }
