@@ -44,35 +44,18 @@
 </div>
 
 
-<section id="intro" class="home-intro app" style="background:grey;padding-top: 39px">
-    <div class="container intro-content">
+<section id="intro" class="home-intro app" style="background:url('img/hp_images-02.png');padding-top: 25px">
+    <div class="container intro-content" style="margin-top:15px;">
         <div class="row">
-            <div class="col-md-8 pixova-product-intro">
-                <h1 class="intro-titles fadeInDown animated">Your Neighbourhood Market on Mobile !</h1>
+            <div class="col-md-8 pixova-product-intro"style="margin-top:-25px;">
+                <span class="intro-titles fadeInDown animated" style="color:white;font-size:28px;">Your Neighbourhood Market on Mobile !</span>
 
-                <p class="intro-taglines fadeInDown animated">All Daily Needs Delivered Within 90 Minutes</p>
-
-                <p class="intro-taglines fadeInDown animated">Groceries | Fruits & Veggies | Stationery | Bakery</p>
-
-                <p class="intro-taglines fadeInDown animated">Meat & Seafood | Flowers</p>
+                <p class="intro-taglines fadeInDown animated"style="color:white;font-size:20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This man, who shall remain nameless, keeps a very <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;low profile. I happen to run into him and strike <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;up a conversation, which led to another <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;conversation over lunch.</p>
                 <!-- split button -->
-                <div class="btn-group app-download">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">DOWNLOAD APP
-                    </button>
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                        <span class="caret"></span>
-                        <span class="sr-only">Toggle Dropdown</span>
-                    </button>
-                    <ul class="dropdown-menu" role="menu">
-                        <li class="iphone"><i class="fa fa-apple"></i><a href="https://itunes.apple.com/in/app/lazylad-neighborhood-shopping/id1019080985?ls=1&mt=8">iOS</a></li>
-                        <li class="android"><i class="fa fa-android"></i><a
-                                href="https://play.google.com/store/apps/details?id=technologies.angular.lazylad">Android</a>
-                        </li>
-                        <li class="windowsmobile"><i class="fa fa-windows"></i><a href="#">Windows - Coming Soon</a>
-                        </li>
-                    </ul>
+                
+                <div style="padding-left:38px;">
+                <img src="img/hp_icons-09.png"/>&nbsp; &nbsp; &nbsp; &nbsp;<img src="img/hp_icons-10.png"/>
                 </div>
-                <a class="btn btn-cta btn-cta-preview" href="#features">See App Screenshots</a>
 
                 <!-- <div class="appAvailability">For Android 4.0 and above | Coming Soon for other platforms</div>-->
             </div>
@@ -94,25 +77,25 @@
         <br>
         <br>
         <br>
-        <h2>Daily shopping made easy</h2>
+        <h4>Daily shopping made easy</h4>
         <br>
         <br>
 
         <div class="row">
             <div class="col-md-4" >
-                <img src="img/signup.png" height="86px" width="119px"/>
-                <p>Sign up</p>
-                <p style="font-size:15px;margin-left: 25px;margin-right: 25px;text-align: justify">Lorem ipsum dolor sit amet, consectetur adiLorem ipsum dolor sit amet, consectetur adi</p>
+                <img src="img/daily_needs.png" height="86px" width="119px"/>
+                <p>Daily Needs</p>
+                <p style="font-size:15px;margin-left: 25px;margin-right: 25px;text-align: justify">Many desktop publishing packages and web page editors use Lorem Ipsum as their default model text</p>
             </div>
             <div class="col-md-4" >
-                <img src="img/signup.png" height="86px" width="119px"/>
+                <img src="img/store.png" height="86px" width="119px"/>
                 <p>Sign up</p>
-                <p style="font-size:15px;margin-left: 25px;margin-right: 25px;text-align: justify">Lorem ipsum dolor sit amet, consectetur adiLorem ipsum dolor sit amet, consectetur adi</p>
+                <p style="font-size:15px;margin-left: 25px;margin-right: 25px;text-align: justify">Many desktop publishing packages and web page editors use Lorem Ipsum as their default model text</p>
             </div>
             <div class="col-md-4" >
-                <img src="img/signup.png" height="86px" width="119px"/>
-                <p>Sign up</p>
-                <p style="font-size:15px;margin-left: 25px;margin-right: 25px;text-align: justify">Lorem ipsum dolor sit amet, consectetur adiLorem ipsum dolor sit amet, consectetur adi</p>
+                <img src="img/mob.png" height="86px" width="119px"/>
+                <p>Trusted Stores</p>
+                <p style="font-size:15px;margin-left: 25px;margin-right: 25px;text-align: justify">Many desktop publishing packages and web page editors use Lorem Ipsum as their default model text</p>
             </div>
         </div>
     </center>
@@ -123,30 +106,30 @@
     <center>
         <br>
 
-        <h2>Benefits</h2>
+        <h4>Benefits</h4>
         <br>
 
 
         <div class="row">
             <div class="col-md-3" >
-                <img src="img/benefits.png" height="66" width="54"/>
-                <p>Sign up</p>
-                <p style="font-size:15px;margin-left: 25px;margin-right: 25px;text-align: justify">Lorem ipsum dolor sit amet, consectetur adiLorem ipsum dolor sit amet, consectetur adi</p>
+                <img src="img/search.png" height="66" width="54"/>
+                <p>Aanduwfvv</p>
+                <p style="font-size:15px;margin-left: 25px;margin-right: 25px;text-align: justify">Many desktop publishing packages and web page editors use Lorem Ipsum as their default model text</p>
             </div>
             <div class="col-md-3" >
-                <img src="img/benefits.png" height="66" width="54"/>
-                <p>Sign up</p>
-                <p style="font-size:15px;margin-left: 25px;margin-right: 25px;text-align: justify">Lorem ipsum dolor sit amet, consectetur adiLorem ipsum dolor sit amet, consectetur adi</p>
+                <img src="img/cart.png" height="66" width="54"/>
+                <p>ejkfhiurwi</p>
+                <p style="font-size:15px;margin-left: 25px;margin-right: 25px;text-align: justify">Many desktop publishing packages and web page editors use Lorem Ipsum as their default model text</p>
             </div>
             <div class="col-md-3" >
-                <img src="img/benefits.png" height="66" width="54"/>
-                <p>Sign up</p>
-                <p style="font-size:15px;margin-left: 25px;margin-right: 25px;text-align: justify">Lorem ipsum dolor sit amet, consectetur adiLorem ipsum dolor sit amet, consectetur adi</p>
+                <img src="img/van.png" height="66" width="54"/>
+                <p>ejfnwuf</p>
+                <p style="font-size:15px;margin-left: 25px;margin-right: 25px;text-align: justify">Many desktop publishing packages and web page editors use Lorem Ipsum as their default model text</p>
             </div>
             <div class="col-md-3" >
-                <img src="img/benefits.png" height="66" width="54"/>
-                <p>Sign up</p>
-                <p style="font-size:15px;margin-left: 25px;margin-right: 25px;text-align: justify">Lorem ipsum dolor sit amet, consectetur adiLorem ipsum dolor sit amet, consectetur adi</p>
+                <img src="img/card.png" height="66" width="54"/>
+                <p>adjbwkuukv</p>
+                <p style="font-size:15px;margin-left: 25px;margin-right: 25px;text-align: justify">Many desktop publishing packages and web page editors use Lorem Ipsum as their default model text</p>
             </div>
         </div>
     </center>
@@ -192,7 +175,7 @@
                                    <blockquote>
                                        <div class="row" style="height: 180px;" >
                                            <div class="col-sm-3 text-center">
-                                               <img class="img-circle" src="img/testimonials-1.png" style="width: 100px;height:100px;">
+                                               <img class="img-circle" src="img/testimonials-1.png" style="width: 120px;height:100px;">
                                                <!--<img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" style="width: 100px;height:100px;">-->
                                            </div>
                                            <div class="col-sm-9">
@@ -292,49 +275,68 @@
 
 <hr>
 <div class="container">
-    <center><span><h6>Team</h6></span>
-
-    <h3>Founder</h3>
+    <center><span style="font-size:16px;color:black">Team</span><br>
+<br>
+    <span style="font-size:26px;color:gray;">Founders</span><br><br>
     <p style="margin-top: -12px">ahfjhajfhahfj hs ha fhashf aksjfk ajskfhask hhasf hasjhfah jsfhasjh fjahsf gasgf gasfg ajgsfug asjfga u</p>
     <div class="row">
         <div class="col-lg-3 col-lg-offset-1">
-        <img src="img/founder.png" />
+        <img src="img/founders.png" />
          <p>Paresh Goel</p>
-         <p style="margin-top: -30px;font-size: small">Founder</p>
+         <p style="margin-top: -30px;font-size: small">Co Founder</p>
         </div>
         <div class="col-lg-3 col-lg-offset-1 ">
-            <img src="img/founder.png" />
-            <p>Paresh Goel</p>
-            <p style="margin-top: -30px;font-size: small">Founder</p>
+            <img src="img/founders.png" />
+            <p>Saurabh Singla</p>
+            <p style="margin-top: -30px;font-size: small">Co Founder</p>
         </div>
         <div class="col-lg-3 col-lg-offset-1">
-            <img src="img/founder.png" />
-            <p>Paresh Goel</p>
-            <p style="margin-top: -30px;font-size: small">Founder</p>
+            <img src="img/founders.png" />
+            <p>Ajay Sethi</p>
+            <p style="margin-top: -30px;font-size: small">Co Founder</p>
         </div>
 
     </div>
 
-        <h3>Founder</h3>
-        <p style="margin-top: -12px">ahfjhajfhahfj hs ha fhashf aksjfk ajskfhask hhasf hasjhfah jsfhasjh fjahsf gasgf gasfg ajgsfug asjfga u</p>
-        <div class="row">
-            <div class="col-lg-3 col-lg-offset-1">
-                <img src="img/founder.png" />
-                <p>Paresh Goel</p>
-                <p style="margin-top: -30px;font-size: small">Founder</p>
-            </div>
-            <div class="col-lg-3 col-lg-offset-1 ">
-                <img src="img/founder.png" />
-                <p>Paresh Goel</p>
-                <p style="margin-top: -30px;font-size: small">Founder</p>
-            </div>
-            <div class="col-lg-3 col-lg-offset-1">
-                <img src="img/founder.png" />
-                <p>Paresh Goel</p>
-                <p style="margin-top: -30px;font-size: small">Founder</p>
-            </div>
-
+        <span style="font-size:26px;color:gray;">Founders</span><br><br>
+    <p style="margin-top: -12px">ahfjhajfhahfj hs ha fhashf aksjfk ajskfhask hhasf hasjhfah jsfhasjh fjahsf gasgf gasfg ajgsfug asjfga u</p>
+    <div class="row">
+        <div class="col-lg-3 col-lg-offset-1">
+        <img src="img/founders.png" />
+         <p>Paresh Goel</p>
+         <p style="margin-top: -30px;font-size: small">Co Founder</p>
         </div>
+        <div class="col-lg-3 col-lg-offset-1 ">
+            <img src="img/founders.png" />
+            <p>Saurabh Singla</p>
+            <p style="margin-top: -30px;font-size: small">Co Founder</p>
+        </div>
+        <div class="col-lg-3 col-lg-offset-1">
+            <img src="img/founders.png" />
+            <p>Ajay Sethi</p>
+            <p style="margin-top: -30px;font-size: small">Co Founder</p>
+        </div>
+
+        <span style="font-size:26px;color:gray;">Founders</span><br><br>
+    <p style="margin-top: -12px">ahfjhajfhahfj hs ha fhashf aksjfk ajskfhask hhasf hasjhfah jsfhasjh fjahsf gasgf gasfg ajgsfug asjfga u</p>
+    <div class="row">
+        <div class="col-lg-3 col-lg-offset-1">
+        <img src="img/founders.png" />
+         <p>Paresh Goel</p>
+         <p style="margin-top: -30px;font-size: small">Co Founder</p>
+        </div>
+        <div class="col-lg-3 col-lg-offset-1 ">
+            <img src="img/founders.png" />
+            <p>Saurabh Singla</p>
+            <p style="margin-top: -30px;font-size: small">Co Founder</p>
+        </div>
+        <div class="col-lg-3 col-lg-offset-1">
+            <img src="img/founders.png" />
+            <p>Ajay Sethi</p>
+            <p style="margin-top: -30px;font-size: small">Co Founder</p>
+        </div>
+
+    </div>
     </center><br>
 
 </div>
@@ -343,15 +345,17 @@
 <!-- Footer -->
 
 
-<div class="banner" style="background-color:#f7e1b5;height: 400px">
+<div class="banner" style="background:url('img/bottom.png');height: 400px">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="page-heading">
-                    <h2>About Us - Our Vision</h2>
-                    <hr class="small">
-                    <span class="subheading">This is what I do.</span>
+            <center>
+                <div class="page-heading" style="margin-top:50px;">
+                    <h2 style="color:white;">Lazylad Family</h2><br><br>
+                <img src="img/bottom1.png"/><br><br>
+                <img src="img/bottom2.png"/>&nbsp; &nbsp; &nbsp;<img src="img/bottom2.png"/>
                 </div>
+                </center>
             </div>
         </div>
     </div>
@@ -361,29 +365,19 @@
     <center>
  <div class="row" >
 
-     <p> Our Investors</p>
-     <div class="col-md-2 ">
-
+     <center><span style="font-size:26px;color:gray;"> Our Investors</span></center><br><br>
+     <center>
+     <div class="col-md-2" style="margin-left:200px;">
          <img src="img/investor-1.png"/>
      </div>
          <div class="col-md-2">
-
              <img src="img/investor-1.png"/>
          </div>
          <div class="col-md-2">
-
              <img src="img/investor-1.png"/>
          </div><div class="col-md-2">
-
          <img src="img/investor-1.png"/>
-      </div><div class="col-md-2">
-
-         <img src="img/investor-1.png"/>
-     </div>
-     <div class="col-md-2">
-
-         <img src="img/investor-1.png"/>
-     </div>
+      </div></center>
 
  </div> </center>
 </div>
