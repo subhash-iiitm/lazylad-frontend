@@ -61,3 +61,25 @@ font-size:13px;
 background-color: #7bae23;
 color: #fff;
 }
+
+.contact{
+	background-color:  	#C0C0C0;
+	border:none;
+
+}
+
+
+input.contact[type=email]{
+	color: black;
+	padding-left: 20px;
+}
+
+input.contact[type=text]{
+	color: black;
+	padding-left: 20px;
+}
+
+#map {
+        width: 500px;
+        height: 400px;
+      }
