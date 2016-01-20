@@ -9,7 +9,7 @@
     <meta name="description" content="Get your daily required items like groceries, stationary and many more delivered at your doorsteps ordering from our mobile app LazyLad">
     <meta name="author" content="aman kaushal, subhash kumar">
 
-    <title>About Us</title>
+    <title>Lazylad Home</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -17,7 +17,7 @@
     <!-- Custom CSS -->
     <link href="css/lazylad.min.css" rel="stylesheet">
     <link href="css/lazylad-app.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
+     <link href="css/custom.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <!--<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">-->
