@@ -1,0 +1,474 @@
+.app #header-wrap.smaller .logo,
+.app #header-wrap.smaller .main-navigation a {
+    color: #2C699E;
+}
+.appAvailability {
+    font-size: 12px;
+    color: #FFF;
+    font-family: Muli;
+    margin-top: 15px;
+    opacity: .75;
+}
+.app #nav-expander {
+    width: 50px;
+}
+.smaller .expandedNav {
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.app #intro {
+    background-color: rgba(256, 256, 256, 1);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.app .section-heading:before {
+    display: none;
+}
+.app .intro-content {
+    padding-top: 16%;
+    padding-bottom: 10.81%;
+}
+.app #features {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #fff;
+}
+.app .poiblock {
+    margin: 25px 0;
+}
+.app .section-heading span {
+    opacity: .65;
+}
+.iphone-mockup-holder img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -100px;
+}
+.app h2.light-section-heading,
+.app h2.light-section-heading span {
+    color: #2C699E!important;
+}
+.iphone-5s-retina {
+    width: 390px;
+    height: 769px;
+    background: url(../img/iphone-5s-retina.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+.iphone-5s-retina-intro {
+    position: absolute;
+    margin-top: -100px;
+}
+.iphone-5s-retina-about img {
+    position: absolute;
+    left: 68px;
+    top: 92px;
+}
+.iphone-5s-retina-intro img {
+    top: 192px;
+    left: 68px;
+    position: absolute;
+}
+.app #about {
+    max-height: 800px;
+    overflow: hidden;
+    padding-top: 150px;
+    border-top: none;
+    border-bottom: none;
+    color: #fff;
+    background-color: #5584B0;
+    background-image: linear-gradient(tobottom, #5584B0, #5087AF);
+}
+.ipad-retina {
+    width: 750px;
+    height: 289px;
+    background: url(../images/app-images/ipad-retina.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+.poiline {
+    height: 40px;
+    margin-top: 20px;
+}
+.poiline img {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
+.iphone5Prop img,
+.ipadProp img {
+    position: absolute;
+    z-index: 1;
+}
+.ipadProp {
+    position: relative;
+    left: -147px;
+    bottom: -30px;
+}
+.ipadProp img {
+    z-index: 0;
+    left: 98px;
+    bottom: -28px;
+}
+#app-screens .owl-prev {
+    margin-left: 7px;
+}
+
+#news-screens .owl-prev {
+    margin-left: 7px;
+}
+.app #app {
+    background-image: linear-gradient(to bottom, #2C699E, #2F74A3);
+    border-top: 0;
+}
+.app #app p {
+    opacity: .75;
+}
+.app #app .app-testimonial-rating li {
+    color: #fe7700;
+    padding: 0 3px;
+}
+.app #contact {
+    border-top: 0;
+    background-color: #394D78;
+}
+.app .contact-form-field {
+    outline: none;
+    border: 2px solid #FFF;
+    color: #FFF;
+    border-radius: 4px;
+    padding-left: 20px;
+}
+.app label.error {
+    left: 0;
+    background-color: #ca1717;
+}
+.app label.error:after {
+    border-top-color: #ca1717;
+}
+.app .input-wrapper i.fa {
+    color: #FFF;
+}
+.app .btn-cta-submit:hover {
+    background-color: #FFF;
+    color: #000;
+}
+.app #footer {
+    background-color: #1d232a;
+    padding: 50px 0 30px;
+}
+.footer-app-social-icons {
+    line-height: 65px;
+}
+.footer-app-social-icons .fa {
+    color: #FFF;
+    font-size: 12px;
+    border: 2px solid #FFF;
+    border-radius: 35px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 28px;
+    margin-left: 4px;
+}
+.footer-app-social-icons a {
+    opacity: .55;
+}
+.footer-app-social-icons a:hover {
+    opacity: 1;
+}
+#pixova-lateral-nav {
+    width: 165px;
+}
+#pixova-lateral-nav ul li {
+    border-bottom: 1px solid rgba(27, 27, 27, .1);
+    padding: 25px 0;
+}
+#pixova-lateral-nav li:hover {
+    cursor: pointer;
+}
+#pixova-lateral-nav a {
+    font-family: Montserrat;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none!important;
+    margin: 0;
+    padding: 0;
+}
+#pixova-lateral-nav img {
+    width: 25%;
+}
+#pixova-lateral-nav a:hover {
+    text-decoration: none;
+}
+.app .work {
+    box-shadow: none;
+    margin: 0;
+}
+.app .owl-theme .owl-controls .owl-buttons div {
+    border-radius: 0;
+    background-color: transparent;
+    font-size: 36px;
+    color: #2C699E;
+}
+.app .owl-controls.clickable {
+    margin: 10px 0;
+}
+.app .owl-theme .owl-controls .owl-page span {
+    background: #FFF;
+}
+.app-page .intro-content {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.app-page .intro-title,
+.intro-tagline {
+    margin-bottom: 15px;
+}
+.faq-question {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 35px 0;
+}
+.faq-question span {
+    position: absolute;
+    top: 2px;
+    right: 0;
+}
+.faq-question:after {
+    content: '';
+    height: 1px;
+    width: 0;
+    position: absolute;
+    bottom: -1px;
+    background: #2dcb70;
+    transition: all .75s ease;
+    -webkit-transition: all .75s ease;
+}
+.faq-question:hover:after {
+    width: 100%;
+}
+.faq-question p {
+    font-size: 13px;
+    display: none;
+}
+.show-answer .fa-angle-down::before {
+    content: "\f106";
+    font-family: FontAwesome;
+}
+.app.thank-you:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(85, 132, 176, .8);
+}
+.app .logo,
+.app #app .section-heading,
+.app .section-heading span,
+.app #contact .section-heading,
+.app .app-li-icon,
+.app #app h4,
+.app #app p,
+.app #app li.star-empty,
+.app .footer-descr {
+    color: #fff;
+}
+.iphone-mockup-holder,
+.faq-question,
+.faq-question .container {
+    position: relative;
+}
+.app #app li.star-empty,
+.app #app .app-testimonial-rating li,
+.app input:focus,
+.app input:focus,
+.app textarea:focus,
+.app textarea:focus {
+    background: transparent;
+}
+#container.lateral-menu-is-open,
+header.lateral-menu-is-open {
+    -webkit-transform: translateX(-155px);
+    -moz-transform: translateX(-155px);
+    -ms-transform: translateX(-155px);
+    -o-transform: translateX(-155px);
+    transform: translateX(-155px);
+}
+.faq-question a,
+.show-answer p {
+    display: block;
+}
+@media max-width 1280px {
+    .app #about {
+        padding-top: 210px;
+    }
+}
+@media min-width 769px and max-width 1024px {
+    #about {
+        max-height: 100%;
+    }
+    .ipadProp img {
+        left: -120px;
+    }
+}
+@media min-width 321px and max-width 768px {
+    .app .intro-content {
+        text-align: center;
+    }
+    #about {
+        max-height: 650px;
+    }
+    .app-download {
+        margin: 15px 0;
+    }
+    .faq-question span {
+        right: 15px;
+    }
+    #nav-expander {
+        margin-right: 15px;
+    }
+    .app #about {
+        padding-top: 90px;
+    }
+    .iphone5Prop {
+        margin-top: 30px;
+    }
+}
+@media max-width 480px {
+    .app-page .intro-content,
+    .app .intro-content {
+        padding-top: 30%;
+    }
+}
+@media max-width 330px {
+    .iphone5Prop img {
+        max-width: 100%;
+    }
+    #pixova-lateral-nav ul li {
+        padding: 9px 0;
+    }
+    .app #about {
+        padding-top: 90px;
+    }
+    .app-download {
+        margin: 15px 0;
+    }
+    body.app div.intro-content {
+        padding-top: 35%;
+    }
+    .faq-question span {
+        right: 15px;
+    }
+}
+
+/* carousel */
+#quote-carousel
+{
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+    background: none;
+    color: #222;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left
+{
+    left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right
+{
+    right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators
+{
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li
+{
+    background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active
+{
+    background: #333333;
+}
+#quote-carousel img
+{
+    width: 250px;
+    height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #quote-carousel
+    {
+        margin-bottom: 0;
+        padding: 0 40px 30px 40px;
+    }
+
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) {
+
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}

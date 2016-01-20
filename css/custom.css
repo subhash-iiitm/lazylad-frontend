@@ -1,0 +1,63 @@
+#newsletter-container {
+background: #595959;
+padding: 27px 0;
+}
+
+#newsletter-container h3 {
+font-size: 25px;
+line-height: 46px;
+color: #444b4c;
+text-transform: uppercase;
+margin: 0;
+float: left;
+}
+
+.parti h3 {
+font: 19px/38px Arial,sans-serif;
+margin: 50px 0 20px;
+color: #e3e3e3;
+text-transform: uppercase;
+}
+
+#newsletter-container form {
+position: relative;
+}
+
+#newsletter-container input[type=email] {
+height: 46px;
+width: 300px;
+vertical-align: top;
+margin-right: 5px;
+border-radius: 4px;
+border: none;
+background: #CFCECE;
+line-height: 20px;
+padding: 5px 10px 5px 20px;
+color: #727b7c;
+}
+
+input, select, textarea {
+outline: 0;
+}
+
+.btn-custom-3 {
+color: #fff;
+background: #282828;
+border: none;
+width:150px;
+height:35px;
+font-size:13px;
+}
+.btn-custom-4 {
+color: #fff;
+background: #ffbf00;
+border: none;
+width:240px;
+height:40px;
+font-size:13px;
+}
+
+::selection {
+background-color: #7bae23;
+color: #fff;
+}
