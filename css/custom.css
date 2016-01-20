@@ -73,10 +73,16 @@ input.contact[type=email]{
 	color: black;
 	padding-left: 20px;
 }
+input.foot[type=email]{
+	color: white;
+	padding-left: 20px;
+	font-size: 12px;
+}
 
 input.contact[type=text]{
 	color: black;
 	padding-left: 20px;
+
 }
 
 #map {
