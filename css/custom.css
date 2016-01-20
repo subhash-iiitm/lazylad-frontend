@@ -91,3 +91,168 @@ input.contact[type=text]{
         width: 500px;
         height: 400px;
       }
+
+
+
+
+ .greyshade{
+	 color: #595959;
+ }
+
+
+
+
+
+/* --- TABLE OF CONTENTS --- */
+/*
+
+1. Imports
+2. CSS Reset
+3. General Styles
+  3.1 Button Styles
+  3.1.1 App button styles
+4. Intro
+5. About
+6. Portfolio
+7. Testimonials
+8. Download our app
+9. Contact
+10. Footer
+11. Responsive Main Menu
+12. Portfolio Page
+13. BX Slider
+14. Video
+15. Blog
+16. "Thank You" page
+17. Media Queries
+
+
+/* --- TABLE OF CONTENTS --- */
+/*
+  ==========================================================================
+  1. IMPORTS
+  ==========================================================================
+  */
+
+
+/*
+==========================================================================
+2. CSS RESET
+==========================================================================
+*/
+
+/*
+==========================================================================
+3. GENERAL STYLES
+==========================================================================
+*/
+
+.project-pictures a::before,
+.project-pictures a span,
+.portfolio-picture a::before,
+.portfolio-picture a span,
+.one-page-arrow {
+	transition: all 0.25s ease-in-out 0s;
+}
+
+
+
+.portfolio-picture a {
+	position: relative;
+}
+
+.footer-photos a span,
+.project-pictures a span,
+.portfolio-picture a span {
+	position: absolute;
+	top: 0;
+	color: #fff;
+	display: block;
+	width: 100%;
+	text-align: center;
+	opacity: 0;
+	visibility: hidden;
+	font-size: 16px;
+	top: 100%;
+}
+
+.footer-photos a:hover span,
+.project-pictures a:hover span,
+.portfolio-picture a:hover span {
+	opacity: 1;
+	visibility: visible;
+	top: 50%;
+}
+
+.footer-photos a:hover span,
+.project-pictures a:hover span {
+	margin-top: -8px;
+}
+
+#portfolio-pictures a:hover span {
+	margin-top: -6px;
+}
+
+
+.project-pictures img,
+#portfolio-pictures img {
+	border-radius: 4px;
+	display: block;
+	width: 100%;
+}
+
+
+.project-pictures a::before,
+.portfolio-picture a::before {
+	content: "";
+	width: 100%;
+	position: absolute;
+	height: 100%;
+	background: none repeat scroll 0% 0% rgba(0, 0, 0, .75);
+	left: 0px;
+	opacity: 0;
+	visibility: hidden;
+	border-radius: 4px;
+}
+
+.project-pictures a:hover::before,
+.portfolio-picture a:hover::before {
+	opacity: 1;
+	visibility: visible;
+}
+
+/*
+==========================================================================
+12. PORTFOLIO PAGE
+==========================================================================
+*/
+
+#portfolio-pictures {
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+.portfolio-picture a {
+	display: block;
+}
+
+.portfolio-picture {
+	margin-bottom: 30px;
+}
+
+.featured-portfolio-picture,
+.featured-portfolio-picture img {
+	height: 372px;
+}
+
+
+
+#portfolio-pictures a span.portfolio-picture-name {
+	font-size: 12px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+.projects-hidden {
+	display: none;
+}

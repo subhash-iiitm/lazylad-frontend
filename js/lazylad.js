@@ -1007,6 +1007,7 @@ jQuery(document).ready(function($) {
 
     //primary navigation slide-in effect
     if ($(window).width() > MQL) {
+
         var headerHeight = $('.navbar-custom').height();
         $(window).on('scroll', {
                 previousTop: 0
@@ -1017,7 +1018,7 @@ jQuery(document).ready(function($) {
                 if (currentTop < this.previousTop) {
                     //if scrolling up...
                     if (currentTop > 0 && $('.navbar-custom').hasClass('is-fixed')) {
-                        $('.navbar-custom').addClass('is-visible');
+                        $('.navbar-custom').addClass('is-visible is-fixed');
                     } else {
                         $('.navbar-custom').removeClass('is-visible is-fixed');
                     }
