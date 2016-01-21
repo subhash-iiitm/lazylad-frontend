@@ -256,3 +256,16 @@ input.contact[type=text]{
 .projects-hidden {
 	display: none;
 }
+
+.follow_foot{
+	text-align:center;
+	width:140px;
+	height:40px;
+}
+
+.contact_foot{
+	text-align:justify;
+	width:400px;
+	height:20px;
+	padding-left: 40px;
+}
