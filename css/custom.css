@@ -45,8 +45,9 @@ color: #fff;
 background: #282828;
 border: none;
 width:150px;
-height:35px;
-font-size:13px;
+height:45px;
+font-size:14px;
+font-weight: bolder;
 }
 .btn-custom-4 {
 color: #fff;
@@ -265,7 +266,88 @@ input.contact[type=text]{
 
 .contact_foot{
 	text-align:justify;
-	width:400px;
+	width:250px;
 	height:20px;
 	padding-left: 40px;
 }
+
+.menu-items {
+	font-size: 18px;
+	color:#ffffff;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.home-text{
+	font-size: 36px;
+	color:#ffffff;
+}
+
+#rock1 {
+    
+    background-repeat: no-repeat;
+}
+
+#rock2 {
+    background-image: url("../img/hp_icons-10.png");
+    background-repeat: no-repeat;
+}
+
+.nav-pills {
+        display: flex;
+        justify-content: center;
+        -webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+ }
+
+.tabs-btn{
+       height:35px;border:none;
+
+ }
+ .tabs-btn:hover,
+ .tabs-btn:focus{
+
+ }  
+
+ .pills-test{
+ 	width:160px;
+ 	font-size:14px;
+ 	text-align:center;
+ 	font-family: 'Roboto', sans-serif;
+ 	border-style: solid;
+ 	border-width: 1px;
+ }
+
+.pills-text{
+ font-size:14px;color:gray;font-size: 14px;
+}
+
+.small-line{
+	border: none;
+	height: 1px; 
+	color: #595959; 
+	background-color: #595959; 
+	width:10%
+}
+
+.foot-size{
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	color: #b3b3b3;
+}
+
+.foot-size-bold{
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+	color: white;
+}
+
+.bg-gradient {
+	background: linear-gradient(white, #e6e6e6);
+
+	
+}
+
+
