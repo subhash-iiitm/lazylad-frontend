@@ -18,7 +18,9 @@
     <link href="css/lazylad.min.css" rel="stylesheet">
     <link href="css/lazylad-app.css" rel="stylesheet">
      <link href="css/custom.css" rel="stylesheet">
-
+     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+     <link href='http://www.lazylad.com/assets/css/animate.css' rel='stylesheet' type='text/css'>
     <!-- Custom Fonts -->
 
     <!--<link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>-->
@@ -44,24 +46,22 @@
 </div>
 
 
-<section id="intro" class="home-intro app" style="background:url('img/hp_images-02.png');background-repeat:no-repeat ;background-size:100%;; padding-top: 28px">
+<section id="intro" class="home-intro app" style="background:url('img/home/rsz_top.jpg');background-repeat:no-repeat; ;background-size:100%; padding-top: 28px">
     <div class="container intro-content" style="margin-top:0px;">
         <div class="row">
             <center>
             <div class="col-md-8 pixova-product-intro"style="margin-top:-25px;">
-                <span class="intro-titles fadeInDown animated" style="color:white;font-size:28px;">Your Neighbourhood Market on Mobile !</span>
+                <span class="intro-titles fadeInDown animated" style="color:#ffffff;font-size: 36px;">Your Neighbourhood Market on Mobile !</span>
 <br>
-                <br>
-                <p class="intro-taglines fadeInDown animated"style="color:white;font-size:18px;">
-                    This man, who shall remain nameless, keeps a very
-                    low  profile.<br> I happen to run into him and strike up a conversation,<br>
-                    which led to another conversation over lunch.</p>
+<br>                <br>
+                <span class="intro-taglines fadeInDown animated"style="color:#ffffff;font-size:18px;">
+                    This man, who shall remain nameless, keeps a very<br>low  profile.I happen to run into him and strike<br> up a conversation, which led to another<br> conversation over lunch.</p>
                 <!-- split button -->
                 <br>
 
 
                 <div style="padding-left:20px;">
-                <img src="img/hp_icons-09.png"/>&nbsp; &nbsp; &nbsp; &nbsp;<img src="img/hp_icons-10.png"/>
+                <img src="img/home/hp_icons-09.png"/>&nbsp; &nbsp; &nbsp; &nbsp;<img src="img/home/hp_icons-10.png"/>
                 </div>
 
                 <!-- <div class="appAvailability">For Android 4.0 and above | Coming Soon for other platforms</div>-->
@@ -71,7 +71,7 @@
                 <!-- iphone 5s retina -->
                 <div class="iphone-5s-retina iphone-5s-retina-intro animated fadeInDown">
                     <!-- your iphone image here -->
-                    <img src="img/screen.png" alt="">
+                    <img src="img/screen.png" height="410px" width="235px" "alt="">
                 </div>
                 <!-- /iphone 5s retina -->
             </div>
@@ -83,94 +83,76 @@
 <div class="container">
     <center>
         <br>
-        <br>
-        <br>
-        <h4>Daily shopping made easy</h4>
-        <br>
-        <br>
+        <div style="margin-top:20px;"><span style="font-size:18px;color:#595959;">Daily Shopping made easy</span></div>
 
-        <div class="row">
+        <div class="row" style="margin-top:80px;">
             <div class="col-md-4" >
-                <img src="img/daily_needs.png" height="86px" width="119px"/>
-                <p>Daily Needs</p>
-                <p style="font-size:15px;margin-left: 25px;margin-right: 25px;text-align: justify">Many desktop publishing packages and web page editors use Lorem Ipsum as their default model text</p>
+                <img src="img/home/daily_need.png" height="90px" width="100px"/>
+                <p style="font-size:24px;">Daily Needs</p>
+                <p style="font-size:14px;margin-left: 60px;margin-right: 25px;text-align: justify">One stop solution for all your daily needs.</p>
             </div>
             <div class="col-md-4" >
-                <img src="img/store.png" height="86px" width="119px"/>
-                <p>Sign up</p>
-                <p style="font-size:15px;margin-left: 25px;margin-right: 25px;text-align: justify">Many desktop publishing packages and web page editors use Lorem Ipsum as their default model text</p>
+                <img src="img/home/stores.png" height="90px" width="100px"/>
+                <p style="font-size:24px;">Trusted Stores</p>
+                <p style="font-size:14px;margin-left: 25px;margin-right: 25px;text-align: justify">Items delivered at your doorsteps by your trusted nearby stores.</p>
             </div>
             <div class="col-md-4" >
-                <img src="img/mob.png" height="86px" width="119px"/>
-                <p>Trusted Stores</p>
-                <p style="font-size:15px;margin-left: 25px;margin-right: 25px;text-align: justify">Many desktop publishing packages and web page editors use Lorem Ipsum as their default model text</p>
+                <img src="img/home/easy.png" height="90px" width="60px"/>
+                <p style="font-size:24px;">Easy to use</p>
+                <p style="font-size:14px;margin-left: 25px;margin-right: 25px;text-align: justify">Super Easy Shopping Experience for Instant Shopping.</p>
             </div>
         </div>
     </center>
 
 </div>
-<hr>
+<hr style="border: none;height: 1px;
+    
+    color: #333; background-color: #333;">
 <div class="container">
     <center>
-        <br>
-
-        <h4>Benefits</h4>
-        <br>
-
-
-        <div class="row">
+        
+        <div style="margin-top:25px;"><span style="font-size:18px;color:#595959;">Benefits</span></div>
+        
+        <div class="row" style="margin-top:80px;">
             <div class="col-md-3" >
-                <img src="img/search.png" height="66" width="54"/>
-                <p>Aanduwfvv</p>
-                <p style="font-size:15px;margin-left: 25px;margin-right: 25px;text-align: justify">Many desktop publishing packages and web page editors use Lorem Ipsum as their default model text</p>
+                <img src="img/home/search.png" height="66" width="66"/>
+                <p style="font-size:14px;">EXPLORE</p>
+                <p style="font-size:12px;margin-left: 25px;margin-right: 25px;text-align: justify">Browse products from your trusted near by stores.
+</p>
             </div>
             <div class="col-md-3" >
-                <img src="img/cart.png" height="66" width="54"/>
-                <p>ejkfhiurwi</p>
-                <p style="font-size:15px;margin-left: 25px;margin-right: 25px;text-align: justify">Many desktop publishing packages and web page editors use Lorem Ipsum as their default model text</p>
+                <img src="img/home/cart.png" height="66" width="66"/>
+                <p style="font-size:14px;">SHOP</p>
+                <p style="font-size:12px;margin-left: 25px;margin-right: 25px;text-align: justify">Order bakery and confectionery items, fruits & vegetables, groceries, stationery, flowers and all your daily needs using our mobile app.
+</p>
             </div>
             <div class="col-md-3" >
-                <img src="img/van.png" height="66" width="54"/>
-                <p>ejfnwuf</p>
-                <p style="font-size:15px;margin-left: 25px;margin-right: 25px;text-align: justify">Many desktop publishing packages and web page editors use Lorem Ipsum as their default model text</p>
+                <img src="img/home/delivery.png" height="66" width="85"/>
+                <p style="font-size:14px;">FREE DELIVERY</p>
+                <p style="font-size:12px;margin-left: 25px;margin-right: 25px;text-align: justify">Get everything delivered at your doorstep within 90 minutes.
+</p>
             </div>
             <div class="col-md-3" >
-                <img src="img/card.png" height="66" width="54"/>
-                <p>adjbwkuukv</p>
-                <p style="font-size:15px;margin-left: 25px;margin-right: 25px;text-align: justify">Many desktop publishing packages and web page editors use Lorem Ipsum as their default model text</p>
+                <img src="img/home/pay.png" height="66" width="85"/>
+                <p style="font-size:14px;">PAY</p>
+                <p style="font-size:12px;margin-left: 25px;margin-right: 25px;text-align: justify">Pay for items only when you receive the products and are satisfied with the quality.</p>
             </div>
         </div>
     </center>
 
 </div>
-<hr>
-<style>
-    .nav-pills {
-        display: flex;
-        justify-content: center;
-    }
-
-    .tabs-btn{
-       height:35px;border:none;
-
-    }
-    .tabs-btn:hover,
-    .tabs-btn:focus{
-
-    }
+<hr style="border: none;height: 1px;
+    
+    color: #333; background-color: #333;">
 
 
-     </style>
 <div class="container">
-   <div class="row">
-
-
-        <ul class="nav  nav-pills " id="tabs-switch" >
-            <li role="presentation" class="active"><a href="#testimonials" aria-controls="testimonials">Testimonials
-            </a></li>
-            <li role="presentation"><a href="#blog" aria-controls="blog">Blogs</a></li>
+   <div class="row" style="margin-top:25px;">
+        <ul class="nav  nav-pills" id="tabs-switch" >
+            <li role="presentation" class="active pills-test"><a href="#testimonials" aria-controls="testimonials"><center>Testimonials</center></a></li>
+            <li role="presentation" class="pills-test" style="margin-left:0px;"><a href="#blog" aria-controls="blog">Blogs</a></li>
         </ul>
-<center>
+
        <div class="tab-content">
 
            <div role="tabpanel" class="tab-pane active" id="testimonials">
@@ -194,39 +176,42 @@
 
                                <!-- Quote 1 -->
                                <div class="item active">
-                                   <blockquote>
+                                   
                                        <div class="row">
                                            <div class="col-sm-8 col-sm-offset-2">
-
-                                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
-                                               <small>Someone famous</small>
+                                                  <center><span><i class="fa fa-quote-left" style="color:#595959;font-size:14px;"></i></span></center><br>
+                                                  <span class="pills-text">#LazyLad It amazing, i got everything at my door step.. grateful to them!
+                                                  Same as market rate, some even cheaper! #awesomeinitiate #mysaviours #ilovethisApp #iamdefinitelybecomingyourregularcustomer #LazyLadapp</span>
+                                                  <hr class="small-line">
+                                               <span class="pills-text"><b>Neha Nair</b></span>
                                            </div>
                                        </div>
-                                   </blockquote>
+                                   
                                </div>
                                <!-- Quote 2 -->
                                <div class="item">
-                                   <blockquote>
+                                   
                                        <div class="row">
                                            <div class="col-sm-8 col-sm-offset-2">
-
-                                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                                               <small>Someone famous</small>
+                                              <center><span><i class="fa fa-quote-left" style="color:#595959;font-size:14px;"></i></span></center><br>
+                                               <span class="pills-text">Gr8 experience Delivered in just 40 min really a great app.Now every thing I need is just one click away.</span>
+                                               <hr class="small-line">
+                                               <span class="pills-text"><b>Daksh Sharma</b></span>
                                            </div>
                                        </div>
-                                   </blockquote>
+                                   
                                </div>
                                <!-- Quote 3 -->
                                <div class="item">
-                                   <blockquote>
+                                   
                                        <div class="row">
                                            <div class="col-sm-8 col-sm-offset-2">
-
-                                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
-                                               <small>Someone famous</small>
+                                              <center><span><i class="fa fa-quote-left" style="color:#595959;font-size:14px;"></i></span></center><br>
+                                               <span class="pills-text">Nice app No more paying visits to the local super market and waiting in queues to pay your bill.</span>
+                                               <hr class="small-line">
+                                               <span class="pills-text"><b>Prashant Potana</b></span>
                                            </div>
-                                       </div>
-                                   </blockquote>
+                                       </div>                                   
                                </div>
                            </div>
 
@@ -260,8 +245,9 @@
                    </div>
                </div>
         </div>
-</center>
+
     </div>
+ </div>
 </div>
 <script>
     $('#tabs-switch a').click(function (e) {
@@ -273,92 +259,134 @@
         //Set the carousel options
         $('#quote-carousel').carousel({
             pause: true,
-            interval: 3000,
+            interval: 6000,
         });
     });
 </script>
+<hr style="border: none;height: 1px;
+    
+    color: #333; background-color: #333;margin-top:0px;">
 
-<hr>
-<div class="container">
-    <center><span style="font-size:16px;color:black">Team</span><br>
+<div class="container-fluid" style="margin-top:40px;">
+    <center><img class="img-responsive" src="img/home/team.png" width=25px; height:15px;/></center>
+    <center><span style="font-size:14px;color:black;font-family: 'Roboto', sans-serif;">Team</span><br>
 <br>
-    <span style="font-size:26px;color:gray;">Founders</span><br><br>
-    <p style="margin-top: -12px">ahfjhajfhahfj hs ha fhashf aksjfk ajskfhask hhasf hasjhfah jsfhasjh fjahsf gasgf gasfg ajgsfug asjfga u</p>
-    <div class="row">
-        <div class="col-lg-3 col-lg-offset-1">
-        <img src="img/founders.png" />
-         <p>Paresh Goel</p>
-         <p style="margin-top: -30px;font-size: small">Co Founder</p>
+    <span style="font-size:24px;color:gray;font-family: 'Roboto', sans-serif;">Founders</span><br><br>
+    <p style="margin-top: -12px;font-size:14px;">ahfjhajfhahfj hs ha fhashf aksjfk ajskfhask hhasf hasjhfah jsfhasjh fjahsf gasgf gasfg ajgsfug asjfga u</p>
+    <div class="row"style="background-image: linear-gradient(white, #e6e6e6);">
+        <div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:0px;">
+        <img src="img/home/founders.png" />
+         
         </div>
-        <div class="col-lg-3 col-lg-offset-1 ">
-            <img src="img/founders.png" />
-            <p>Saurabh Singla</p>
-            <p style="margin-top: -30px;font-size: small">Co Founder</p>
+        <div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 " style="margin-left:150px;">
+            <img src="img/home/founders.png" />
+            
         </div>
-        <div class="col-lg-3 col-lg-offset-1">
-            <img src="img/founders.png" />
-            <p>Ajay Sethi</p>
-            <p style="margin-top: -30px;font-size: small">Co Founder</p>
+        <div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1" style="margin-left:140px;">
+            <img  src="img/home/founders.png"/>
+            
         </div>
-
-    </div>
-
-        <span style="font-size:26px;color:gray;">Founders</span><br><br>
-    <p style="margin-top: -12px">ahfjhajfhahfj hs ha fhashf aksjfk ajskfhask hhasf hasjhfah jsfhasjh fjahsf gasgf gasfg ajgsfug asjfga u</p>
-    <div class="row">
-        <div class="col-lg-3 col-lg-offset-1">
-        <img src="img/founders.png" />
-         <p>Paresh Goel</p>
-         <p style="margin-top: -30px;font-size: small">Co Founder</p>
         </div>
-        <div class="col-lg-3 col-lg-offset-1 ">
-            <img src="img/founders.png" />
-            <p>Saurabh Singla</p>
-            <p style="margin-top: -30px;font-size: small">Co Founder</p>
+         <div class="row">
+        <div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:0px;">
+        <p style="font-size:24px;">Paresh Goel</p>
+         <p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>
         </div>
-        <div class="col-lg-3 col-lg-offset-1">
-            <img src="img/founders.png" />
-            <p>Ajay Sethi</p>
-            <p style="margin-top: -30px;font-size: small">Co Founder</p>
+        <div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 " style="margin-left:150px;">
+            
+            <p style="font-size:24px;">Saurabh Singla</p>
+            <p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>
         </div>
-
-        <span style="font-size:26px;color:gray;">Founders</span><br><br>
-    <p style="margin-top: -12px">ahfjhajfhahfj hs ha fhashf aksjfk ajskfhask hhasf hasjhfah jsfhasjh fjahsf gasgf gasfg ajgsfug asjfga u</p>
-    <div class="row">
-        <div class="col-lg-3 col-lg-offset-1">
-        <img src="img/founders.png" />
-         <p>Paresh Goel</p>
-         <p style="margin-top: -30px;font-size: small">Co Founder</p>
-        </div>
-        <div class="col-lg-3 col-lg-offset-1 ">
-            <img src="img/founders.png" />
-            <p>Saurabh Singla</p>
-            <p style="margin-top: -30px;font-size: small">Co Founder</p>
-        </div>
-        <div class="col-lg-3 col-lg-offset-1">
-            <img src="img/founders.png" />
-            <p>Ajay Sethi</p>
-            <p style="margin-top: -30px;font-size: small">Co Founder</p>
+        <div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1" style="margin-left:140px;">
+            
+            <p style="font-size:24px;">Ajay Sethi</p>
+            <p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>
         </div>
 
     </div>
-    </div></center><br>
+    <br>
+        <span style="font-size:24px;color:gray;font-family: 'Roboto', sans-serif;">Founders</span><br><br>
+    <p style="margin-top: -12px;font-size:14px;">ahfjhajfhahfj hs ha fhashf aksjfk ajskfhask hhasf hasjhfah jsfhasjh fjahsf gasgf gasfg ajgsfug asjfga u</p>
+    <div class="row"style="background-image: linear-gradient(white, #e6e6e6);">
+        <div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:0px;">
+        <img src="img/home/founders.png" />
+         
+        </div>
+        <div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 " style="margin-left:150px;">
+            <img src="img/home/founders.png" />
+            
+        </div>
+        <div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1" style="margin-left:140px;">
+            <img src="img/home/founders.png" />
+            
+        </div>
+        </div>
+         <div class="row">
+        <div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:0px;">
+        <p style="font-size:24px;">Paresh Goel</p>
+         <p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>
+        </div>
+        <div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 " style="margin-left:150px;">
+            
+            <p style="font-size:24px;">Saurabh Singla</p>
+            <p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>
+        </div>
+        <div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1" style="margin-left:140px;">
+            
+            <p style="font-size:24px;">Ajay Sethi</p>
+            <p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>
+        </div>
+
+    </div>
+    <br>
+
+        <span style="font-size:24px;color:gray;font-family: 'Roboto', sans-serif;">Founders</span><br><br>
+    <p style="margin-top: -12px;font-size:14px;">ahfjhajfhahfj hs ha fhashf aksjfk ajskfhask hhasf hasjhfah jsfhasjh fjahsf gasgf gasfg ajgsfug asjfga u</p>
+    <div class="row"style="background-image: linear-gradient(white, #e6e6e6);">
+        <div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:0px;">
+        <img src="img/home/founders.png" />
+         
+        </div>
+        <div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 " style="margin-left:150px;">
+            <img src="img/home/founders.png" />
+            
+        </div>
+        <div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1" style="margin-left:140px;">
+            <img src="img/home/founders.png" />
+            
+        </div>
+        </div>
+         <div class="row">
+        <div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:0px;">
+        <p style="font-size:24px;">Paresh Goel</p>
+         <p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>
+        </div>
+        <div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 " style="margin-left:150px;">
+            
+            <p style="font-size:24px;">Saurabh Singla</p>
+            <p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>
+        </div>
+        <div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1" style="margin-left:140px;">
+            
+            <p style="font-size:24px;">Ajay Sethi</p>
+            <p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>
+        </div>
+
+    </div>
+    </div><br><br>
 
 </div>
-<hr>
-
-<!-- Footer -->
 
 
-<div class="banner" style="background:url('img/bottom.png');height: 400px">
+<div class="banner img-responsive" style="background:url('img/rsz_bottom.jpg');background-repeat:no-repeat;background-size:cover; ;height: 500px">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <center>
-                <div class="page-heading" style="margin-top:50px;">
-                    <h2 style="color:white;">Lazylad Family</h2><br><br>
-                <img src="img/bottom1.png"/><br><br>
-                <img src="img/bottom2.png"/>&nbsp; &nbsp; &nbsp;<img src="img/bottom2.png"/>
+                <div class="page-heading" style="margin-top:17%;">
+                    <h2 style="color:white;font-size:36px;">Lazylad Family</h2><br><br>
+                <img src="img/home/bottom1.png"/><br><br>
+                <img src="img/home/bottom-android.png" height="60px"  width="200px" />&nbsp; &nbsp; &nbsp;<img src="img/home/bottom-ios.png"  height="60px"  width="200px"/>
                 </div>
                 </center>
             </div>
@@ -366,28 +394,31 @@
     </div>
 </div>
 
-<div class="container">
+<div class="container" style="margin-top:40px;">
     <center>
  <div class="row" >
 
-     <center><span style="font-size:26px;color:gray;"> Our Investors</span></center><br><br>
+     <center><span style="font-size:24px;color:gray;"> Our Investors</span></center><br><br>
      <center>
-     <div class="col-md-2" style="margin-left:200px;">
-         <img src="img/investor-1.png"/>
+     <div class="col-md-2" style="margin-left:240px;">
+         <img src="img/home/investor-1.png"/>
      </div>
          <div class="col-md-2">
-             <img src="img/investor-1.png"/>
+             <img src="img/home/investor-1.png"/>
          </div>
          <div class="col-md-2">
-             <img src="img/investor-1.png"/>
+             <img src="img/home/investor-1.png"/>
          </div><div class="col-md-2">
-         <img src="img/investor-1.png"/>
+         <img src="img/home/investor-1.png"/>
       </div></center>
 
  </div> </center>
 </div>
 <br>
 <br>
+<hr style="border:none;height: 1px;
+    
+    color: #333; background-color: #333; width:80%; margin-bottom:50px;">
 <div id="footer">
 
 </div>
