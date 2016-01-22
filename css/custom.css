@@ -44,7 +44,7 @@ outline: 0;
 color: #fff;
 background: #282828;
 border: none;
-width:150px;
+width:165px;
 height:45px;
 font-size:14px;
 font-weight: bolder;
@@ -103,50 +103,31 @@ input.contact[type=text]{
 
 
 
-
-/* --- TABLE OF CONTENTS --- */
-/*
-
-1. Imports
-2. CSS Reset
-3. General Styles
-  3.1 Button Styles
-  3.1.1 App button styles
-4. Intro
-5. About
-6. Portfolio
-7. Testimonials
-8. Download our app
-9. Contact
-10. Footer
-11. Responsive Main Menu
-12. Portfolio Page
-13. BX Slider
-14. Video
-15. Blog
-16. "Thank You" page
-17. Media Queries
+.wide-bg {
+	height:100%;
+	width:100%;
 
 
-/* --- TABLE OF CONTENTS --- */
-/*
-  ==========================================================================
-  1. IMPORTS
-  ==========================================================================
-  */
+}
+.fill-banner {
+
+	max-width: 100%;
+	max-height: 100%;
+    z-index: -1;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+.fill-banner img {
+	width:100%;
+	height: 100%;
+}
 
 
-/*
-==========================================================================
-2. CSS RESET
-==========================================================================
-*/
 
-/*
-==========================================================================
-3. GENERAL STYLES
-==========================================================================
-*/
 
 .project-pictures a::before,
 .project-pictures a span,
@@ -311,7 +292,8 @@ input.contact[type=text]{
  }  
 
  .pills-test{
- 	width:160px;
+ 	width:138px;
+	 height:41px;
  	font-size:14px;
  	text-align:center;
  	font-family: 'Roboto', sans-serif;
@@ -348,6 +330,122 @@ input.contact[type=text]{
 	background: linear-gradient(white, #e6e6e6);
 
 	
+}
+.intro {
+	display: table;
+	width: 100%;
+	height: auto;
+	padding: 100px 0;
+	text-align: center;
+	color: #fff;
+	background: url(../img/home-bg.jpg) no-repeat bottom center scroll;
+	background-color: #000;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+.intro .intro-body {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+	font-size: 40px;
+}
+
+.intro .intro-body .intro-text {
+	font-size: 18px;
+}
+
+@media(min-width:768px) {
+	.intro {
+		height: 100%;
+		padding: 0;
+	}
+
+	.intro .intro-body .brand-heading {
+		font-size: 100px;
+	}
+
+	.intro .intro-body .intro-text {
+		font-size: 26px;
+	}
+}
+
+.btn-circle {
+	width: 70px;
+	height: 70px;
+	margin-top: 15px;
+	padding: 7px 16px;
+	border: 2px solid #fff;
+	border-radius: 100%!important;
+	font-size: 40px;
+	color: #fff;
+	background: 0 0;
+	-webkit-transition: background .3s ease-in-out;
+	-moz-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+	outline: 0;
+	color: #fff;
+	background: rgba(255,255,255,.1);
+}
+
+.btn-circle i.animated {
+	-webkit-transition-property: -webkit-transform;
+	-webkit-transition-duration: 1s;
+	-moz-transition-property: -moz-transform;
+	-moz-transition-duration: 1s;
+}
+
+.btn-circle:hover i.animated {
+	-webkit-animation-name: pulse;
+	-moz-animation-name: pulse;
+	-webkit-animation-duration: 1.5s;
+	-moz-animation-duration: 1.5s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes pulse {
+	0% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+
+	50% {
+		-webkit-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}
+
+@-moz-keyframes pulse {
+	0% {
+		-moz-transform: scale(1);
+		transform: scale(1);
+	}
+
+	50% {
+		-moz-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+
+	100% {
+		-moz-transform: scale(1);
+		transform: scale(1);
+	}
 }
 
 .news_block{
