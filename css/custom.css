@@ -350,4 +350,11 @@ input.contact[type=text]{
 	
 }
 
+.news_block{
+        background-color: #ffffff;
+        margin-left: 20px;
+        height: 645px;
+        width: 360px;
+    }
+
 
