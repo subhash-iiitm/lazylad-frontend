@@ -334,7 +334,7 @@ input.contact[type=text]{
 .intro {
 	display: table;
 	width: 100%;
-	height: auto;
+	max-height: 100%;
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
@@ -465,5 +465,12 @@ input.contact[type=text]{
 }
 
 
+p {
+	text-align:justify;
+}
+
+span {
+	text-align:justify;
+}
 
 
