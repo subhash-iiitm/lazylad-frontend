@@ -338,7 +338,7 @@ input.contact[type=text]{
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background: url(../img/home-bg.jpg) no-repeat bottom center scroll;
+	background: url(../img/home/bg_header.jpg) no-repeat bottom center scroll;
 	background-color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
