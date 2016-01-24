@@ -47,26 +47,24 @@
 </div>
 
 
-<header class="intro">
-    <div class="intro-body">
+<header class="intro-header intro" style="background-image: url('img/home/bg_header.jpg')">
         <div class="container">
-
             <div class="row">
-                <div class="col-md-8 col-md-offset-2">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                    <center><h4>Lazylad 2015</h4></center>
+                    <hr class="small"><br>
+                        <center><span style="text-align:justify;font-size:30px;">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</span></center>  <br>
+                        <center><span style="text-align:justify;font-size:16px;">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</span></center>    
+
                     
-                    <center style="margin-top:240px;"><span style="font-size:16px;">Lazylad Family</span></center>
-                    <center><hr class="small"></center>
-                    <center><span style="text-align:justify;margin-top:20px;text-weight:bolder;">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</span></center>
+                    </div>
+                   <div style="margin-top:-20px;"> <center><a href="#s"><img src="img/home/arrow-image.png"style="display:block;cursor:pointer;cursor:hand" width="120px" height="100px"/></a></center>   </div>
                     
-                    <a href="#abouts" class="btn btn-circle page-scroll" style="bottom:20px;">
-                        <i class="fa fa-angle-double-down animated"></i>
-                    </a>
                 </div>
             </div>
         </div>
-    </div>
-</header>
-
+    </header>
 
 <!-- Set your background image for this header on the line below. -->
 <br>
@@ -78,14 +76,14 @@
         <div class="col-md-3"><img src="img/testimonials-1.png " style="height: 45px;width: 45px;"/>
         </div>
          <div class="col-md-9">
-             <div class="row"><span style="font-size: 14px;">Science</span></div>
+             <div class="row"><span id = "s"style="font-size: 14px;">Science</span></div>
              <div class="row"><span style="font-size: 10px;">2 min read</span></div>
 
          </div>
     </div>
     <div class="container" style="width: inherit;padding-top: 20px;padding-left:20px;padding-right: 20px ">
 
-        <span style="font-size: 18px;color:grey;font-weight:500">How N-Commerce Companies Are Giving A New Lease Of Life To Small Players In Neighbourhood Mkts</span><br>
+        <span style="font-size: 18px;color:grey;font-weight:500"><a href="blog.html" style="text-decoration:none;color:grey;" target="_blank">How N-Commerce Companies Are Giving A New Lease Of Life To Small Players In Neighbourhood Mkts</a></span><br>
         <p style="font-size: 14px;color: black">Contary to popular belief,Lorem ipsum is not simply random text.It has root in a pieces of classical latin literature from 45BC, making it over 2000 years old.</p>
         <p style="font-size: 14px;color: black">Contary to popular belief,Lorem ipsum is not simply random text.</p>
 
@@ -110,7 +108,7 @@
         </div>
         <div class="container" style="width: inherit;padding-top: 20px;padding-left:20px;padding-right: 20px ">
 
-            <span style="font-size: 18px;color:grey;font-weight:500">I sat Down with a millionaire who operates 10 businesses</span><br>
+            <span style="font-size: 18px;color:grey;font-weight:500;text-align:justify">How things change when you transition from being a bootstrapped to a funded company</span><br>
             <p style="font-size: 14px;color: black">Contary to popular belief,Lorem ipsum is not simply random text.It has root in a pieces of classical latin literature from 45BC, making it over 2000 years old.</p>
             <p style="font-size: 14px;color: black">Contary to popular belief,Lorem ipsum is not simply random text.</p>
 
@@ -270,6 +268,14 @@
 <script src="js/jquery.easing.min.js"></script>
 <!-- Custom Theme JavaScript -->
 <script src="js/lazylad.js"></script>
+<script type="text/javascript">
+        $('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+    return false;
+});
+    </script>
 
 </body>
 
