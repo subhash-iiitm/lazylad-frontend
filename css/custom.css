@@ -464,13 +464,10 @@ input.contact[type=text]{
             border-radius: 0px;
 }
 
-
-p {
-	text-align:justify;
+.just{
+	text-align: justify;
 }
 
-span {
-	text-align:justify;
-}
+
 
 
