@@ -131,17 +131,17 @@
                    <table style="width:350px;height:140px;margin-left:1px;margin-top:36px;margin-bottom:68px;">
                             <tr >
                                 <td width="60px" height="60px;"><img src="img/home/contact us icons-02.png" width="15px" height="22px" /></td>
-                                <td style="font-size:16px;color:#b3b3b3">449, Spaze city opposite mk hotel, Gurgaon</td>
+                                <td style="font-size:16px;color:#b3b3b3">551 Spaze IT Tech Park, Sohna Road, Sector 50, Gurgaon</td>
                             </tr>
 
                             <tr>
                                 <td height="60px;"><img src="img/home/contact us icons-04.png" width="20px" height="13px"/></td>
-                                <td style="font-size:16px;color:#b3b3b3">hello@lazylad.com</td>
+                                <td style="font-size:16px;color:#b3b3b3">contact@lazylad.com</td>
                             </tr>
 
                             <tr>
                                 <td height="60px;"><img src="img/home/contact us icons-05.png" width="18px" height="18px"/> </td>
-                                <td style="font-size:16px;color:#b3b3b3;">+91 9876543210</td>
+                                <td style="font-size:16px;color:#b3b3b3;">+91 8011139511</td>
                             </tr>
 
                         </table>
