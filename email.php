@@ -37,7 +37,7 @@ if( !isset($_POST) ) {
 
 	$mail->From = $email;
 	$mail->FromName = 'LazyLad Website contact form';
-	$mail->addAddress('shubhxx54@gmail.com');     		// Add a recipient -> You can add multiple recipients here. This is the e-mail address where you'll be receiving the e-mails
+	$mail->addAddress('paresh@lazylad.com');     		// Add a recipient -> You can add multiple recipients here. This is the e-mail address where you'll be receiving the e-mails
 	$mail->isHTML(true);                                  		// Set email format to HTML
 
 	$mail->Subject = $subject;
