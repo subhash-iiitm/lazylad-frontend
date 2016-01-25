@@ -1,3 +1,10 @@
+
+<?php
+
+  session_start();
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -79,14 +86,38 @@
     <div class="container-fluid" style="margin-top:88px;margin-left:142px;">
         <div class="row">
             <div class="col-md-5 col-md-offset-0">
-            <form id="contact-form" method="post" action="php-files/email.php">
+                <?php
+
+
+                 $msg=isset($_SESSION['msg'])?$_SESSION['msg']:null;
+                 $status=isset($_SESSION['status'])?$_SESSION['status']:null;
+                if($msg && $status=='true')
+                {
+                echo "saaf";
+                echo '<div class="alert alert-success">
+                <strong>Success!</strong> '.$_SESSION['msg'].'</div>';
+                unset($_SESSION['msg']);
+                unset($_SESSION['status']);
+                }
+                else if ($msg && $status=='false')
+                {
+                echo '<div class="alert alert-warning">
+                <strong>Error</strong>  '.$_SESSION['msg'].'</div>';
+                unset($_SESSION['msg']);
+                unset($_SESSION['status']);
+                }
+
+
+
+                ?>
+            <form id="contact-form" method="post" action="email.php">
             <div><input type="text" placeholder="First Name" name="cfname" class="contact" style="width:456px;height:60px;"></div>
             <div style="margin-top:38px;"><input type="email" placeholder="Email" name="cfemail" class="contact " style="width:456px;height:60px;"></div>
             <div style="margin-top:38px;"><textarea class="contact" id="cfmessage" name="cfmessage" placeholder="Text your message here" style="width:456px;height:237px;padding-left:20px;" ></textarea></div>
             
             <div class="container">
             <div class="row">
-            <div class="col-md-2" style="margin-top:32px;"><label name="document" style="color:#B0B0B0;font-size:14px; ">Attach Documents</label></div>  
+            <!--<div class="col-md-2" style="margin-top:32px;"><label name="document" style="color:#B0B0B0;font-size:14px; ">Attach Documents</label></div>  -->
             <div class="col-md-3" style="margin-top:22px;"><button type="submit" style="background:#FF0066;border:none; border-radius: 12px;width:143px;height:36px;color:white;margin-left:105px;">Send</button></div>
             </div>
             </div>

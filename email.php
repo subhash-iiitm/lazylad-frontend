@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 /**
 *	Functional e-mail forms using PHPMailer Class
 *	Below settings are for usage with GMAIL SMTP servers. If you prefer other services, please use Google to search for appropriate settings.
@@ -13,7 +13,7 @@ if( !isset($_POST) ) {
 
 } else {
 		
-	require_once "../php-classes/PHPMailerAutoload.php";
+	require_once "php-classes/PHPMailerAutoload.php";
 
 
 
@@ -37,7 +37,7 @@ if( !isset($_POST) ) {
 
 	$mail->From = $email;
 	$mail->FromName = 'LazyLad Website contact form';
-	$mail->addAddress('paresh@lazylad.com');     		// Add a recipient -> You can add multiple recipients here. This is the e-mail address where you'll be receiving the e-mails
+	$mail->addAddress('shubhxx54@gmail.com');     		// Add a recipient -> You can add multiple recipients here. This is the e-mail address where you'll be receiving the e-mails
 	$mail->isHTML(true);                                  		// Set email format to HTML
 
 	$mail->Subject = $subject;
@@ -45,10 +45,15 @@ if( !isset($_POST) ) {
 	$mail->AltBody = $message;
 
 	if(!$mail->send()) {
-	    echo 'Message could not be sent.';
-	    echo 'Mailer Error: ' . $mail->ErrorInfo;
+	       $_SESSION['msg'] = "Please try again . Some Internal Issue";
+           $_SESSION['status'] ='false';
+       	   header('location:contact.php'); // redirect user to Thank you page on successful form submit
+       	   exit();
 	} else {
-	   header('Location: http://www.'.$_SERVER['HTTP_HOST'].'/thankyou.html'); // redirect user to Thank you page on successful form submit
+
+    $_SESSION['msg'] = "Thank you for getting in touch with us!";
+    $_SESSION['status'] ='true';
+	   header('location:contact.php'); // redirect user to Thank you page on successful form submit
 	   exit();
 	}
 
