@@ -396,7 +396,7 @@ header.lateral-menu-is-open {
 }
 #quote-carousel .carousel-indicators {
     right: 50%;
-    top: auto;
+    top: 200px;
     bottom: 50px;
     margin-right: -19px;
 }
