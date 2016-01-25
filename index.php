@@ -52,7 +52,7 @@
             <center>
                 <div class="col-md-8 pixova-product-intro"style="margin-top:-25px;">
                     <span class="intro-titles fadeInDown animated" style="color:#ffffff;font-size: 36px;">Your Neighbourhood Market on Mobile !</span>
-                    <br>
+                    <br><br>
                     
                 <center><p class="intro-taglines fadeInDown animated"style="color:#ffffff;font-size:18px;">
                     Welcome to the new world order in shopping – Lazylad. Step up your shopping <br>experience today. Shop in your neighbourhood shops efficiently and fast, <br>right from your bed. Be lazy, be smart, be efficient, be what you want to be.<br> We are putting the power in your hands. </p></center>
@@ -115,7 +115,7 @@
 
 <hr style="border: none;height: 1px;
 
-    color: #333; background-color: #333;margin-top:50px;">
+    color: #333; background-color: #333;margin-top:55px;">
     
 <div class="container">
     <center>
@@ -152,7 +152,7 @@
 </div>
 <hr style="border: none;height: 1px;
 
-    color: #333; background-color: #333;margin-top:50px;">
+    color: #333; background-color: #333;margin-top:55px;">
 
 
 <div class="container">
@@ -237,19 +237,19 @@
                 <br>
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 portfolio-picture">
-                        <a href="‘Modi-Fication’-Of-Indian-Startup.html"><span class="portfolio-picture-name"><p style="font-size: 100%;margin-top: -16px">‘Modi-Fication’ Of Indian Startups</p></span><img alt="" src="img/blog/b7.jpg" height="155" width="271"></a>
+                        <a href="‘Modi-Fication’-Of-Indian-Startup.html" target="_blank"><span class="portfolio-picture-name"><p style="font-size: 100%;margin-top: -16px">‘Modi-Fication’ Of Indian Startups</p></span><img alt="" src="img/home/bg_header.jpg" height="155" width="271"></a>
 
 
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 portfolio-picture">
-                        <a href="https://www.linkedin.com/pulse/5-common-traits-successful-entrepreneurs-saurabh-singla?trk=mp-reader-card"><span class="portfolio-picture-name"><p style="font-size: 100%;margin-top: -16px">5 common traits of successful entrepreneurs...</p></span><img alt="" src="img/blog/b6.jpg" height="155" width="271" ></a>
+                        <a href="https://www.linkedin.com/pulse/5-common-traits-successful-entrepreneurs-saurabh-singla?trk=mp-reader-card" target="_blank"><span class="portfolio-picture-name"><p style="font-size: 100%;margin-top: -16px">5 common traits of successful entrepreneurs...</p></span><img alt="" src="img/home/bg_header.jpg" height="155" width="271" ></a>
 
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 portfolio-picture">
-                        <a href="https://www.linkedin.com/pulse/what-drives-people-startup-saurabh-singla?trk=mp-reader-card"><span class="portfolio-picture-name"><p style="font-size: 100%;margin-top: -16px">What Drives People to Startup?</p></span><img alt="" src="img/blog/b8.jpg"  height="155" width="271"></a>
+                        <a href="https://www.linkedin.com/pulse/what-drives-people-startup-saurabh-singla?trk=mp-reader-card" target="_blank"><span class="portfolio-picture-name"><p style="font-size: 100%;margin-top: -16px">What Drives People to Startup?</p></span><img alt="" src="img/home/bg_header.jpg"  height="155" width="271"></a>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 portfolio-picture">
-                        <a href="https://www.linkedin.com/pulse/why-chase-investments-when-you-can-bootstrap-saurabh-singla?trk=mp-reader-card"><span class="portfolio-picture-name"><p style="font-size: 100%;margin-top: -16px">Why Chase Investments When You Can Bootstrap?</p></span><img alt="" src="img/blog/b3.jpg " height="155" width="271"></a>
+                        <a href="https://www.linkedin.com/pulse/why-chase-investments-when-you-can-bootstrap-saurabh-singla?trk=mp-reader-card" target="_blank"><span class="portfolio-picture-name"><p style="font-size: 100%;margin-top: -16px">Why Chase Investments When You Can Bootstrap?</p></span><img alt="" src="img/home/bg_header.jpg" height="155" width="271"></a>
                     </div>
                 </div>
             </div>
@@ -273,7 +273,7 @@
 </script>
 <hr style="border: none;height: 1px;
 
-    color: #333; background-color: #333;margin-top:50px;">
+    color: #333; background-color: #333;margin-top:55px;">
 
 <div class="container-fluid" style="margin-top:40px;">
     <center><img class="img-responsive" src="img/home/team.png" width="14" height="14"/></center>
@@ -426,7 +426,7 @@
 <br>
 <hr style="border:none;height: 1px;
 
-    color: #333; background-color: #333; width:80%; margin-bottom:50px;">
+    color: #333; background-color: #333; width:80%; margin-bottom:55px;">
 <div id="footer">
 
 </div>
