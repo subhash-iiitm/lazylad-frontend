@@ -53,17 +53,23 @@
                 <div class="col-md-8 pixova-product-intro"style="margin-top:-25px;">
                     <span class="intro-titles fadeInDown animated" style="color:#ffffff;font-size: 36px;">Your Neighbourhood Market on Mobile !</span>
                     <br>
-                    <br>                <br>
-                <span class="intro-taglines fadeInDown animated"style="color:#ffffff;font-size:18px;">
-                    This man, who shall remain nameless, keeps a very<br>low  profile.I happen to run into him and strike<br> up a conversation, which led to another<br> conversation over lunch.</p>
+                    
+                <center><p class="intro-taglines fadeInDown animated"style="color:#ffffff;font-size:18px;">
+                    Welcome to the new world order in shopping – Lazylad. Step up your shopping <br>experience today. Shop in your neighbourhood shops efficiently and fast, <br>right from your bed. Be lazy, be smart, be efficient, be what you want to be.<br> We are putting the power in your hands. </p></center>
                     <!-- split button -->
                 <br>
 
+                <center>
+                <div class="row">
+                	<div class="col-md-3" style="margin-left:175px;">
+                    <!--<button class="app-store" style="background: url('img/home/hp_icons-09.png')"></button>
+                    <button class="app-store" style="background: url('img/home/hp_icons-10.png');margin-left: 10px"></button>-->
+                    <a href="#" ><img src="img/home/hp_icons-09.png" style="display:block;cursor:pointer;cursor:hand;"/></a></div>
+                	<div class="col-md-3">
+                	<a href="#"><img src="img/home/hp_icons-10.png" style="display:block;cursor:pointer;cursor:hand;margin-left: 10px"/></a>
+                	</div>
+                	</div></center>
 
-                <div style="padding-left:20px;">
-                    <button class="app-store" style="background: url('img/home/hp_icons-09.png')"></button>
-                    <button class="app-store" style="background: url('img/home/hp_icons-10.png');margin-left: 10px"></button>
-                </div>
 
                     <!-- <div class="appAvailability">For Android 4.0 and above | Coming Soon for other platforms</div>-->
                 </div>
@@ -84,47 +90,49 @@
 <div class="container">
     <center>
         <br>
-        <div style="margin-top:20px;"><span style="font-size:18px;color:#595959;">Daily Shopping made easy</span></div>
+        <div style="margin-top:20px;"><span style="font-size:18px;color:#595959;">Daily shopping made easy</span></div>
 
         <div class="row" style="margin-top:80px;">
             <div class="col-md-4" >
                 <img src="img/home/daily_need.png" height="82px" width="72px"/>
                 <p style="font-size:24px;">Daily Needs</p>
-                <p style="font-size:14px;margin-left: 60px;margin-right: 25px;text-align: justify">One stop solution for all your daily needs.</p>
+                <p style="font-size:14px;margin-left: 60px;margin-right: 25px;text-align: justify">One stop solution: One app, many categories to shop from.</p>
             </div>
             <div class="col-md-4" >
                 <img src="img/home/stores.png" height="81px" width="93px"/>
                 <p style="font-size:24px;">Trusted Stores</p>
-                <p style="font-size:14px;margin-left: 25px;margin-right: 25px;text-align: justify">Items delivered at your doorsteps by your trusted nearby stores.</p>
+                <p style="font-size:14px;margin-left: 25px;margin-right: 25px;text-align: justify">Get your orders fulfilled and door delivered by the same shops you regularly buy from.</p>
             </div>
             <div class="col-md-4" >
                 <img src="img/home/easy.png" height="83px" width="49px"/>
                 <p style="font-size:24px;">Easy to use</p>
-                <p style="font-size:14px;margin-left: 25px;margin-right: 25px;text-align: justify">Super Easy Shopping Experience for Instant Shopping.</p>
+                <p style="font-size:14px;margin-left: 25px;margin-right: 25px;text-align: justify">Clean and simple app. Easy to use features. Accurate information. Can be used by anyone. </p>
             </div>
         </div>
     </center>
 
 </div>
+
 <hr style="border: none;height: 1px;
 
-    color: #333; background-color: #333;">
+    color: #333; background-color: #333;margin-top:50px;">
+    
 <div class="container">
     <center>
 
-        <div style="margin-top:25px;"><span style="font-size:18px;color:#595959;">Benefits</span></div>
+        <div style="margin-top:30px;"><span style="font-size:18px;color:#595959;">Benefits</span></div>
 
         <div class="row" style="margin-top:80px;">
             <div class="col-md-3" >
                 <img src="img/home/search.png" height="27" width="30"/>
                 <p style="font-size:14px;">EXPLORE</p>
-                <p style="font-size:12px;margin-left: 25px;margin-right: 25px;text-align: justify">Browse products from your trusted near by stores.
+                <p style="font-size:12px;margin-left: 25px;margin-right: 25px;text-align: justify">Browse products from your trusted neighbourhood stores.
                 </p>
             </div>
             <div class="col-md-3" >
                 <img src="img/home/cart.png" height="38" width="37"/>
                 <p style="font-size:14px;">SHOP</p>
-                <p style="font-size:12px;margin-left: 25px;margin-right: 25px;text-align: justify">Order bakery and confectionery items, fruits & vegetables, groceries, stationery, flowers and all your daily needs using our mobile app.
+                <p style="font-size:12px;margin-left: 25px;margin-right: 25px;text-align: justify">Order bakery and confectionery items, fruits & vegetables, groceries, stationery, flowers and all your daily needs.
                 </p>
             </div>
             <div class="col-md-3" >
@@ -144,11 +152,11 @@
 </div>
 <hr style="border: none;height: 1px;
 
-    color: #333; background-color: #333;">
+    color: #333; background-color: #333;margin-top:50px;">
 
 
 <div class="container">
-    <div class="row" style="margin-top:25px;">
+    <div class="row" style="margin-top:30px;">
         <ul class="nav  nav-pills" id="tabs-switch" >
             <li role="presentation" class="active pills-test"><a href="#testimonials" aria-controls="testimonials"><center>Testimonials</center></a></li>
             <li role="presentation" class="pills-test" style="margin-left:0px;border-left:0px"><a href="#blog" aria-controls="blog">Blogs</a></li>
@@ -181,8 +189,7 @@
                                     <div class="row">
                                         <div class="col-sm-8 col-sm-offset-2">
                                             <center><span><i class="fa fa-quote-left" style="color:#595959;font-size:14px;"></i></span></center><br>
-                                                  <span class="pills-text">#LazyLad It amazing, i got everything at my door step.. grateful to them!
-                                                  Same as market rate, some even cheaper! #awesomeinitiate #mysaviours #ilovethisApp #iamdefinitelybecomingyourregularcustomer #LazyLadapp</span>
+                                                  <span class="pills-text">You guys are amazing. I now get everything at my doorstep ever since I downloaded the app. The amazing thing I have to mention is that you have managed to get me my favourite items at market prices, some even cheaper. #Lazylad #awesomeinitiate #mysaviours #ilovethisApp #iamdefinitelybecomingyourregularcustomer #LazyLadapp</span>
                                             <hr class="small-line">
                                             <span class="pills-text"><b>Neha Nair</b></span>
                                         </div>
@@ -195,7 +202,7 @@
                                     <div class="row">
                                         <div class="col-sm-8 col-sm-offset-2">
                                             <center><span><i class="fa fa-quote-left" style="color:#595959;font-size:14px;"></i></span></center><br>
-                                            <span class="pills-text">Gr8 experience Delivered in just 40 min really a great app.Now every thing I need is just one click away.</span>
+                                            <span class="pills-text">Never thought a local shopping app could achieve this level of perfection. Got my order delivered in just 40 mins. I personally couldn’t have done it any faster. Gr8 experience. Now everything I need is just one click away. </span>
                                             <hr class="small-line">
                                             <span class="pills-text"><b>Daksh Sharma</b></span>
                                         </div>
@@ -208,7 +215,7 @@
                                     <div class="row">
                                         <div class="col-sm-8 col-sm-offset-2">
                                             <center><span><i class="fa fa-quote-left" style="color:#595959;font-size:14px;"></i></span></center><br>
-                                            <span class="pills-text">Nice app No more paying visits to the local super market and waiting in queues to pay your bill.</span>
+                                            <span class="pills-text">Nive app. Saves me the trouble of driving to the local super market and standing in long queues to get my picks billed. I can’t express enough how happy I am to find this app. The wife complains lesser these days. Thanks @Lazylad</span>
                                             <hr class="small-line">
                                             <span class="pills-text"><b>Prashant Potana</b></span>
                                         </div>
@@ -266,7 +273,7 @@
 </script>
 <hr style="border: none;height: 1px;
 
-    color: #333; background-color: #333;margin-top:0px;">
+    color: #333; background-color: #333;margin-top:50px;">
 
 <div class="container-fluid" style="margin-top:40px;">
     <center><img class="img-responsive" src="img/home/team.png" width="14" height="14"/></center>
@@ -275,7 +282,7 @@
         <span style="font-size:24px;color:gray;font-family: 'Roboto', sans-serif;">Founders</span><br><br>
         <p style="margin-top: -12px;font-size:14px;">ahfjhajfhahfj hs ha fhashf aksjfk ajskfhask hhasf hasjhfah jsfhasjh fjahsf gasgf gasfg ajgsfug asjfga u</p>
         <div class="row"style="background-image: linear-gradient(white, #e6e6e6);">
-            <div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:0px;">
+            <div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:50px;">
                 <img src="img/home/founders.png" />
 
             </div>
@@ -289,7 +296,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:0px;">
+            <div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:50px;">
                 <p style="font-size:24px;">Paresh Goel</p>
                 <p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>
             </div>
@@ -309,7 +316,7 @@
         <span style="font-size:24px;color:gray;font-family: 'Roboto', sans-serif;">Founders</span><br><br>
         <p style="margin-top: -12px;font-size:14px;">ahfjhajfhahfj hs ha fhashf aksjfk ajskfhask hhasf hasjhfah jsfhasjh fjahsf gasgf gasfg ajgsfug asjfga u</p>
         <div class="row"style="background-image: linear-gradient(white, #e6e6e6);">
-            <div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:0px;">
+            <div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:50px;">
                 <img src="img/home/founders.png" />
 
             </div>
@@ -323,7 +330,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:0px;">
+            <div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:50px;">
                 <p style="font-size:24px;">Paresh Goel</p>
                 <p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>
             </div>
@@ -344,7 +351,7 @@
         <span style="font-size:24px;color:gray;font-family: 'Roboto', sans-serif;">Founders</span><br><br>
         <p style="margin-top: -12px;font-size:14px;">ahfjhajfhahfj hs ha fhashf aksjfk ajskfhask hhasf hasjhfah jsfhasjh fjahsf gasgf gasfg ajgsfug asjfga u</p>
         <div class="row"style="background-image: linear-gradient(white, #e6e6e6);">
-            <div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:0px;">
+            <div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:50px;">
                 <img src="img/home/founders.png" />
 
             </div>
@@ -358,7 +365,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:0px;">
+            <div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:50px;">
                 <p style="font-size:24px;">Paresh Goel</p>
                 <p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>
             </div>
