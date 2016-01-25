@@ -93,7 +93,7 @@
                  $status=isset($_SESSION['status'])?$_SESSION['status']:null;
                 if($msg && $status=='true')
                 {
-                echo "saaf";
+
                 echo '<div class="alert alert-success">
                 <strong>Success!</strong> '.$_SESSION['msg'].'</div>';
                 unset($_SESSION['msg']);
