@@ -20,7 +20,7 @@
     <link href="css/custom.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-    <link href='http://www.lazylad.com/assets/css/animate.css' rel='stylesheet' type='text/css'>
+    <link href='css/animate.css' rel='stylesheet' type='text/css'>
     <!-- Custom Fonts -->
 
     <!--<link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>-->
@@ -60,8 +60,8 @@
     <div class="container intro-content" style="margin-top:0px;">
         <div class="row">
             <center>
-                <div class="col-md-8 pixova-product-intro"style="margin-top:-25px;">
-                    <span class="intro-titles fadeInDown animated" style="color:#ffffff;font-size: 36px;">Your Neighbourhood Market on Mobile !</span>
+                <div class="col-md-8 pixova-product-intro"style="margin-top:33px;">
+                    <div style="margin-left:66px;"><span class="intro-titles fadeInDown animated" style="color:#ffffff;font-size: 36px;">Your Neighbourhood Market on Mobile !</span>
                     <br><br>
 
                     <center><p class="intro-taglines fadeInDown animated"style="color:#ffffff;font-size:18px;">
@@ -70,18 +70,19 @@
                     <br>
 
                     <center>
-                        <div class="row">
-                            <div class="col-md-3" style="margin-left:175px;">
+                        <div class="row" style="alignment:center; ">
+                            <div class="col-md-3 animated slideInRight" style="margin-left:265px;">
                                 <!--<button class="app-store" style="background: url('img/home/hp_icons-09.png')"></button>
                                 <button class="app-store" style="background: url('img/home/hp_icons-10.png');margin-left: 10px"></button>-->
                                 <a href="https://play.google.com/store/apps/details?id=technologies.angular.lazylad" target="_blank"><img src="img/home/hp_icons-09.png" style="display:block;cursor:pointer;cursor:hand;"/></a></div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-md-offset-0 animated slideInLeft" style="margin-left:-55px; ">
                                 <a href="https://itunes.apple.com/in/app/lazylad-neighborhood-shopping/id1019080985?ls=1&mt=8" target="_blank"><img src="img/home/hp_icons-10.png" style="display:block;cursor:pointer;cursor:hand;margin-left: 10px"/></a>
                             </div>
                         </div></center>
 
 
                     <!-- <div class="appAvailability">For Android 4.0 and above | Coming Soon for other platforms</div>-->
+                </div>
                 </div>
                 <!-- /split button -->
                 <div class="col-gl-4 col-md-4 hidden-sm hidden-xs align-center iphone-mockup-holder">
@@ -99,40 +100,38 @@
 
 <div class="container">
     <center>
-        <br>
-        <div style="margin-top:20px;"><span style="font-size:18px;color:#595959;">Daily shopping made easy</span></div>
 
-        <div class="row" style="margin-top:80px;">
-            <div class="col-md-4" >
+        <div style="margin-top:49px;"><span style="font-size:18px;color:#595959;">Daily shopping made easy</span></div>
+
+        <div class="row " style="margin-top:87px;">
+            <div class="col-md-4 " >
                 <img src="img/home/daily_need.png" height="82px" width="72px"/>
-                <p style="font-size:24px;">Daily Needs</p>
-                <p style="font-size:14px;margin-left: 60px;margin-right: 25px;text-align: justify">One stop solution: One app, many categories to shop from.</p>
+                <p style="font-size:24px;margin-top: 37px;">Daily Needs</p>
+                <p style="font-size:14px;margin-left: 60px;margin-right: 25px;;margin-top: 20px;text-align: justify">One stop solution: One app, many categories to shop from.</p>
             </div>
             <div class="col-md-4" >
                 <img src="img/home/stores.png" height="81px" width="93px"/>
-                <p style="font-size:24px;">Trusted Stores</p>
-                <p style="font-size:14px;margin-left: 25px;margin-right: 25px;text-align: justify">Get your orders fulfilled and door delivered by the same shops you regularly buy from.</p>
+                <p style="font-size:24px;margin-top: 37px;">Trusted Stores</p>
+                <p style="font-size:14px;margin-left: 25px;;margin-top: 20px;margin-right: 25px;text-align: justify">Get your orders fulfilled and door delivered by the same shops you regularly buy from.</p>
             </div>
             <div class="col-md-4" >
                 <img src="img/home/easy.png" height="83px" width="49px"/>
-                <p style="font-size:24px;">Easy to use</p>
-                <p style="font-size:14px;margin-left: 25px;margin-right: 25px;text-align: justify">Clean and simple app. Easy to use features. Accurate information. Can be used by anyone. </p>
+                <p style="font-size:24px;margin-top: 37px;">Easy to use</p>
+                <p style="font-size:14px;margin-left: 25px;margin-right: 25px;margin-top: 20px;text-align: justify">Clean and simple app. Easy to use features. Accurate information. Can be used by anyone. </p>
             </div>
         </div>
     </center>
 
 </div>
 
-<hr style="border: none;height: 1px;
-
-    color: #333; background-color: #333;margin-top:55px;">
+<hr style="border: none;height: 1px; color: #333; background-color: #333;margin-top:40px;">
 
 <div class="container">
     <center>
 
-        <div style="margin-top:30px;"><span style="font-size:18px;color:#595959;">Benefits</span></div>
+        <div style="margin-top:39px;"><span style="font-size:18px;color:#595959;">Benefits</span></div>
 
-        <div class="row" style="margin-top:80px;">
+        <div class="row" style="margin-top:90px;">
             <div class="col-md-3" >
                 <img src="img/home/search.png" height="27" width="30"/>
                 <p style="font-size:14px;margin-top:31px;">EXPLORE</p>
@@ -162,11 +161,11 @@
 </div>
 <hr style="border: none;height: 1px;
 
-    color: #333; background-color: #333;margin-top:50px;">
+    color: #333; background-color: #333;margin-top:25px;">
 
 
 <div class="container">
-    <div class="row" style="margin-top:30px;">
+    <div class="row" style="margin-top:40px;">
         <ul class="nav  nav-pills" id="tabs-switch" >
             <li role="presentation" class="active pills-test"><a href="#testimonials" aria-controls="testimonials"><center>Testimonials</center></a></li>
             <li role="presentation" class="pills-test" style="margin-left:0px;border-left:0px"><a href="#blog" aria-controls="blog">Blogs</a></li>
@@ -178,10 +177,10 @@
 
 
                 <div class="row">
-                    <div class="col-md-12" data-wow-delay="0.2s">
+                    <div class="col-md-12" data-wow-delay="0.2s"  >
                         <div class="carousel slide" data-ride="carousel" id="quote-carousel">
                             <!-- Bottom Carousel Indicators -->
-                            <ol class="carousel-indicators">
+                            <ol class="carousel-indicators" style="margin-top:20px;">
                                 <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " height="100%" width="100%" src="img/testimonials-1.png" alt="">
                                 </li>
                                 <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive"  height="100%" width="100%" src="img/testimonials-2.png" alt="">
@@ -198,9 +197,9 @@
 
                                     <div class="row">
                                         <div class="col-sm-8 col-sm-offset-2">
-                                            <center><span><i class="fa fa-quote-left" style="color:#595959;font-size:14px;"></i></span></center><br>
-                                            <span class="pills-text">You guys are amazing. I now get everything at my doorstep ever since I downloaded the app. The amazing thing I have to mention is that you have managed to get me my favourite items at market prices, some even cheaper. #Lazylad #awesomeinitiate #mysaviours #ilovethisApp #iamdefinitelybecomingyourregularcustomer #LazyLadapp</span>
-                                            <hr class="small-line">
+                                            <center><span style="margin-top: 35px;"><i class="fa fa-quote-left" style="color:#595959;font-size:14px;"></i></span></center><br>
+                                            <span class="pills-text" style="margin-top: 27px;">You guys are amazing. I now get everything at my doorstep ever since I downloaded the app. The amazing thing I have to mention is that you have managed to get me my favourite items at market prices, some even cheaper. #Lazylad #awesomeinitiate #mysaviours #ilovethisApp #iamdefinitelybecomingyourregularcustomer #LazyLadapp</span>
+                                            <hr class="small-line" style="margin-top: 37px;">
                                             <span class="pills-text"><b>Neha Nair</b></span>
                                         </div>
                                     </div>
@@ -234,8 +233,8 @@
                             </div>
 
                             <!-- Carousel Buttons Next/Prev -->
-                            <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-                            <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+                            <!--<a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>-->
+                            <!--<a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>-->
                         </div>
                     </div>
                 </div>
@@ -402,20 +401,20 @@
 <!--</div>-->
 
 
-<div class="banner img-responsive" style="background:url('img/rsz_bottom.jpg');background-repeat:no-repeat;background-size:cover; ;height: 500px">
+<div class="banner img-responsive" style="background:url('img/rsz_bottom.jpg');background-repeat:no-repeat;background-size:cover; ;height: 500px ;margin-top:50px; ">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <center>
                     <div class="page-heading" style="margin-top:17%;">
-                        <h2 style="color:white;font-size:36px;">Lazylad Family</h2><br><br>
+                        <h2 style="color:white;font-size:36px;">Lazylad Family</h2>
                         <div >
-                               <div "><input  type="tel" id="user-phone-value" placeholder="Enter phone number" maxlength="10"
+                               <div style="margin-top:60px;" ><input style="font-size:22px; padding-left:20px; border:none;height:55px;width:280px;background-color:black;color: #FFF;border-bottom-left-radius:8px;border-top-left-radius:8px; " type="tel" id="user-phone-value" placeholder="Enter phone number" maxlength="10"
                                               onkeypress="return event.charCode > 47 &amp;&amp; event.charCode < 58;" pattern="[0-9]{5}"
                                               onkeydown="if (event.keyCode == 13) $('.get-app').click()">
 
 
-                               <button  title="and chill" id="get-app-buttons" type="submit" class="grofers-get-app fixwidth">Get App</button>
+                               <button  title="and chill" id="get-app-buttons" style="font-size:18px; margin-left:3px; border:none;height:54px;width:100px;background-color:black;color: #FFF;border-bottom-right-radius:5px;border-top-right-radius:5px; " type="submit" class="">Get App</button>
                            </div>      </div>
 
  
@@ -429,7 +428,7 @@
     </div>
 </div>
 
-<div class="container" style="margin-top:40px;">
+<div class="container" style="margin-top:60px;">
     <center>
         <div class="row" >
 
@@ -453,7 +452,7 @@
 <br>
 <hr style="border:none;height: 1px;
 
-    color: #333; background-color: #333; width:80%; margin-bottom:55px;">
+    color: #333; background-color: #333; width:80%; margin-bottom:45px; margin-top: 0px;">
 <div id="footer">
 
 </div>
