@@ -434,15 +434,15 @@
 
             <center><span style="font-size:24px;color:gray;">Featured In </span></center><br><br>
             <center>
-                <div class="col-md-2" style="margin-left:120px;">
+                <div class="col-md-2" style="margin-left:100px;">
                     <a href="http://www.iamwire.com/2015/05/hyperlocal-mobile-commerce-startup-lazylad-joins-ghv-accelerator-raises-100000-seed-funding/115921" target="_blank" style="text-decoration:none"><img src="img/home/investor-1.png"style="cursor:pointer;cursor:hand"/></a>
                 </div>
-                <div class="col-md-2" style="margin-left:30px;">
+                <div class="col-md-2" style="margin-left:50px;">
                     <a href="http://www.indiaretailing.com/7/42/81/13343/Pushing-the-ncommerce-frontier" target="_blank" style="text-decoration:none"><img src="img/home/pg-logo.png" height="60px" width="200px" style="cursor:pointer;cursor:hand"></a>
                 </div>
-                <div class="col-md-2" style="margin-left:50px;">
+                <div class="col-md-2" style="margin-left:80px;">
                     <a href="http://inc42.com/buzz/ghv-accelerator-lazylad/" target="_blank" style="text-decoration:none"><img src="img/home/inc.png" height="75px" width="130px"style="cursor:pointer;cursor:hand"></a>
-                </div><div class="col-md-2" style="margin-left:40px;">
+                </div><div class="col-md-2" style="margin-left:70px;">
                 <a href="http://www.franchiseindia.com/entrepreneur/news/LazyLad-app-raises-100-000-from-Gurgaon-based-GHV-Accelerator-6390/" target="_blank" style="text-decoration:none"><img src="img/home/entrepreneurindia-logo.jpg" height="60px" width="200px"style="cursor:pointer;cursor:hand"></a>
             </div></center>
 
