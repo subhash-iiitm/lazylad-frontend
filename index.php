@@ -71,11 +71,11 @@
 
                     <center>
                         <div class="row" style="alignment:center; ">
-                            <div class="col-md-3 animated slideInRight" style="margin-left:265px;">
+                            <div class="col-md-3 col-sm-6 animated slideInRight" style="margin-left:200px;">
                                 <!--<button class="app-store" style="background: url('img/home/hp_icons-09.png')"></button>
                                 <button class="app-store" style="background: url('img/home/hp_icons-10.png');margin-left: 10px"></button>-->
                                 <a href="https://play.google.com/store/apps/details?id=technologies.angular.lazylad" target="_blank"><img src="img/home/hp_icons-09.png" style="display:block;cursor:pointer;cursor:hand;"/></a></div>
-                            <div class="col-md-3 col-md-offset-0 animated slideInLeft" style="margin-left:-55px; ">
+                            <div class="col-md-3 col-sm-6 col-md-offset-0 animated slideInLeft" style="padding-left:0px; ">
                                 <a href="https://itunes.apple.com/in/app/lazylad-neighborhood-shopping/id1019080985?ls=1&mt=8" target="_blank"><img src="img/home/hp_icons-10.png" style="display:block;cursor:pointer;cursor:hand;margin-left: 10px"/></a>
                             </div>
                         </div></center>
@@ -85,7 +85,7 @@
                 </div>
                 </div>
                 <!-- /split button -->
-                <div class="col-gl-4 col-md-4 hidden-sm hidden-xs align-center iphone-mockup-holder">
+                <div class="col-gl-4 col-md-4 hidden-md hidden-sm hidden-xs align-center iphone-mockup-holder">
                     <!-- iphone 5s retina -->
                     <div class="iphone-5s-retina iphone-5s-retina-intro animated fadeInDown">
                         <!-- your iphone image here -->
@@ -407,7 +407,7 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <center>
                     <div class="page-heading" style="margin-top:17%;">
-                        <h2 style="color:white;font-size:36px;">Lazylad Family</h2>
+                        <h2 style="color:white;font-size:36px;">Get the App</h2>
                         <div >
                                <div style="margin-top:60px;" ><input style="font-size:22px; padding-left:20px; border:none;height:55px;width:280px;background-color:black;color: #FFF;border-bottom-left-radius:8px;border-top-left-radius:8px; " type="tel" id="user-phone-value" placeholder="Enter phone number" maxlength="10"
                                               onkeypress="return event.charCode > 47 &amp;&amp; event.charCode < 58;" pattern="[0-9]{5}"
@@ -434,15 +434,15 @@
 
             <center><span style="font-size:24px;color:gray;">Featured In </span></center><br><br>
             <center>
-                <div class="col-md-2" style="margin-left:100px;">
+                <div class="col-md-2 col-sm-4" style="margin-left:80px;">
                     <a href="http://www.iamwire.com/2015/05/hyperlocal-mobile-commerce-startup-lazylad-joins-ghv-accelerator-raises-100000-seed-funding/115921" target="_blank" style="text-decoration:none"><img src="img/home/investor-1.png"style="cursor:pointer;cursor:hand"/></a>
                 </div>
-                <div class="col-md-2" style="margin-left:50px;">
+                <div class="col-md-2 col-sm-4" style="margin-left:80px;">
                     <a href="http://www.indiaretailing.com/7/42/81/13343/Pushing-the-ncommerce-frontier" target="_blank" style="text-decoration:none"><img src="img/home/pg-logo.png" height="60px" width="200px" style="cursor:pointer;cursor:hand"></a>
                 </div>
-                <div class="col-md-2" style="margin-left:80px;">
+                <div class="col-md-2 col-sm-4" style="margin-left:80px;">
                     <a href="http://inc42.com/buzz/ghv-accelerator-lazylad/" target="_blank" style="text-decoration:none"><img src="img/home/inc.png" height="75px" width="130px"style="cursor:pointer;cursor:hand"></a>
-                </div><div class="col-md-2" style="margin-left:70px;">
+                </div><div class="col-md-2 col-sm-4" style="margin-left:80px;">
                 <a href="http://www.franchiseindia.com/entrepreneur/news/LazyLad-app-raises-100-000-from-Gurgaon-based-GHV-Accelerator-6390/" target="_blank" style="text-decoration:none"><img src="img/home/entrepreneurindia-logo.jpg" height="60px" width="200px"style="cursor:pointer;cursor:hand"></a>
             </div></center>
 
