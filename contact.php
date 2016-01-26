@@ -111,9 +111,9 @@
 
                 ?>
             <form id="contact-form" method="post" action="email.php">
-            <div><input type="text" placeholder="First Name" name="cfname" class="contact" style="width:456px;height:60px;"></div>
-            <div style="margin-top:38px;"><input type="email" placeholder="Email" name="cfemail" class="contact " style="width:456px;height:60px;"></div>
-            <div style="margin-top:38px;"><textarea style="width:456px;height:237px;padding-left:20px;color:black;padding-top:20px;margin-left:-2px;font-size:20px;" class="contact" id="cfmessage" name="cfmessage" placeholder="Text your message here"></textarea></div>
+            <div><input type="text" placeholder="Name" name="cfname" class="contact" style="width:456px;height:60px;color:black;opacity:50%"></div>
+            <div style="margin-top:38px;"><input type="email" placeholder="Email" name="cfemail" class="contact " style="width:456px;height:60px;color:black;opacity:50%"></div>
+            <div style="margin-top:38px;"><textarea style="width:456px;height:237px;padding-left:20px;color:black;padding-top:20px;margin-left:-2px;font-size:20px;color:black;opacity:50%" class="contact" id="cfmessage" name="cfmessage" placeholder="Text your message here"></textarea></div>
             
             <div class="container">
             <div class="row">
@@ -126,7 +126,7 @@
 
             <div class="col-md-7" style="padding-left: 120px;">
                 <span style="color:black;font-size:18px;">Where to find us</span><br><br>
-                <div><script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:263px;width:415px;"><div id="gmap_canvas" style="height:263px;width:415px;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://www.themecircle.net" id="get-map-data">Lazylad on map</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(28.4594965,77.02663830000006),mapTypeId: google.maps.MapTypeId.TERRAIN};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(28.4594965, 77.02663830000006)});infowindow = new google.maps.InfoWindow({content:"<b>449</b><br/>Spaze city opposite mk hotel <br/> Gurgaon" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script></div>
+                <div><script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:263px;width:415px;"><div id="gmap_canvas" style="height:263px;width:415px;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://www.map-embed.com" id="get-map-data">map-embed.com</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(28.4177042,77.04441010000005),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(28.4177042, 77.04441010000005)});infowindow = new google.maps.InfoWindow({content:"<b>551 Spaze IT Tech Park </b><br/>Sohna Road, Sector 50<br/> Gurgaon" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script></div>
                 <div style="margin-top:36px;" > <span style="font-size:18px;color:gray;">Contact us</span>
                    <table style="width:350px;height:140px;margin-left:1px;margin-top:36px;margin-bottom:68px;">
                             <tr >
