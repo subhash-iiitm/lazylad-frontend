@@ -68,6 +68,11 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" >
+                <center><a href="#s"><img src="img/home/arrow-image.png"style="display:block;cursor:pointer;cursor:hand" width="100px" height="80px"/></a></center>
+            </div>
+        </div>
     </div>
 </header>
 
@@ -75,8 +80,13 @@
 <!-- Main Content -->
 <div class="container">
     <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" style="margin-top:103px;" id="s">
+            <br><br><br><br>
+        </div>
+    </div>
+    <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <p style="color:gray;font-family:robota;font-size:18px;"id="s">
+            <p style="color:gray;font-family:robota;font-size:18px;">
                 For any venture, branding plays a key role in ensuring its long-term success since it gives people a reason to connect with their products or services.  However, there is a key element that many entrepreneurs miss in the process – personal branding, i.e., branding themselves.
                  </p>
             <p style="color:gray;font-family:robota;font-size:18px;" >
@@ -192,7 +202,14 @@
 
 </div>
 <!-- jQuery -->
-
+<script type="text/javascript">
+    $('a').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top
+        }, 500);
+        return false;
+    });
+</script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>

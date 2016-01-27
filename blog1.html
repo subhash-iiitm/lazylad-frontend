@@ -70,6 +70,11 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" >
+                <center><a href="#s"><img src="img/home/arrow-image.png"style="display:block;cursor:pointer;cursor:hand" width="100px" height="80px"/></a></center>
+            </div>
+        </div>
     </div>
 </header>
 
@@ -77,8 +82,13 @@
 <!-- Main Content -->
 <div class="container">
     <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" style="margin-top:103px;" id="s">
+            <br><br><br><br>
+        </div>
+    </div>
+    <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <p style="color:gray;font-family:robota;font-size:18px;"id="s">
+            <p style="color:gray;font-family:robota;font-size:18px;">
 
                 People have been waiting with bated breath to see how Modi’s trip to the US will culminate, and startups in particular were looking forward to see how he could pull the right strings back there in Silicon Valley so new synergies could be formed that would give the already thriving startup ecosystem in India a bigger boost. From the look of things, Modi managed to prove yet again that he meant business as he stood head to head with the CEOs of some of the world’s biggest tech giants like Facebook, Apple, Google, Uber and Tesla among many others. Some of Modi’s pet projects like Digital India earned the support of most CEOs, with Mark Zuckerberg even changing his Facebook profile picture to show his support for the ambitious project. Google has gone a step further and confirmed its plans to launch free wi-fi in 500 railway stations across India, of which 100 will be made wi-fi zones before the end of 2016. Regarding this development, Google CEO Sundar Pichai mentioned in a blog post, “This will rank as the largest public Wi-Fi project in India, and among the largest in the world, by number of potential users”. Microsoft, on the other hand, will help bring low-cost broadband services to over 5 lakh villages in the country to ensure inclusive growth for all. These investments will certainly get things rolling and speed up the implementation of the vast project. Above all, these investments present an opportunity for startups to collaborate with these tech giants to support the campaign and help improve the digital infrastructure and internet connectivity in the country, which will lay the foundation for better e-governance in the country. Once the infrastructure is in place, they stand to benefit tremendously since it’ll give them access to new and previously unexplored markets that were otherwise inaccessible owing to lack of connectivity. Then of course, there’s the $150 Mn India Venture Fund that Qualcomm has committed
 
@@ -146,7 +156,14 @@
 
 </div>
 <!-- jQuery -->
-
+<script type="text/javascript">
+    $('a').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top
+        }, 500);
+        return false;
+    });
+</script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>

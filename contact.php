@@ -23,6 +23,7 @@
 
     <!-- Custom CSS -->
     <link href="css/lazylad.min.css" rel="stylesheet">
+
     <link href="css/custom.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -111,9 +112,9 @@
 
                 ?>
             <form id="contact-form" method="post" action="email.php">
-            <div><input type="text" placeholder="Name" name="cfname" class="contact" style="width:456px;height:60px;color:black;opacity:50%"></div>
-            <div style="margin-top:38px;"><input type="email" placeholder="Email" name="cfemail" class="contact " style="width:456px;height:60px;color:black;opacity:50%"></div>
-            <div style="margin-top:38px;"><textarea style="width:456px;height:237px;padding-left:20px;color:black;padding-top:20px;margin-left:-2px;font-size:20px;color:black;opacity:50%" class="contact" id="cfmessage" name="cfmessage" placeholder="Text your message here"></textarea></div>
+            <div><input type="text" placeholder="Name" name="cfname" class="contact" style="width:456px;height:60px;color:black;font-weight:500;opacity:0.7"></div>
+            <div style="margin-top:38px;"><input type="email" placeholder="Email" name="cfemail" class="contact " style="width:456px;height:60px;color:black;font-weight:500;opacity:0.7"></div>
+            <div style="margin-top:38px;"><textarea style="width:456px;height:237px;padding-left:20px;color:black;padding-top:20px;margin-left:-2px;font-size:20px;color:black;font-weight:500;opacity:0.7" class="contact" id="cfmessage" name="cfmessage" placeholder="Text your message here"></textarea></div>
             
             <div class="container">
             <div class="row">
