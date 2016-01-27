@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 
@@ -453,6 +456,30 @@
 <hr style="border:none;height: 1px;
 
     color: #333; background-color: #333; width:80%; margin-bottom:45px; margin-top: 0px;">
+	<?php
+
+
+                 $msg=isset($_SESSION['msg'])?$_SESSION['msg']:null;
+                 $status=isset($_SESSION['status'])?$_SESSION['status']:null;
+                if($msg && $status=='true')
+                {
+
+                echo '<center><div class="container alert alert-success fade in">
+				<strong>Success!</strong> '.$_SESSION['msg'].'</div></center>';
+			unset($_SESSION['msg']);
+			unset($_SESSION['status']);
+			}
+			else if ($msg && $status=='false')
+			{
+			echo '<center><div class=" container alert alert-warning fade in">
+			<strong>Error</strong>  '.$_SESSION['msg'].'</div></center>';
+			unset($_SESSION['msg']);
+			unset($_SESSION['status']);
+			}
+
+
+
+			?>
 <div id="footer">
 
 </div>
