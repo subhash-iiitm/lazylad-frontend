@@ -469,6 +469,20 @@ input.contact[type=text]{
 	text-align: justify;
 }
 
+.blog-tiles:hover{
+	background-image: url("../img/home/bg_header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:#FFF;
+	opacity: 10;
 
+}
 
+.blog-tiles{
+	background-color:#FFF;
+	color:#000;
+}
 
+.blog-p{
+	color:gray;font-family:robota;font-size:18px;
+}
