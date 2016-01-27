@@ -94,14 +94,14 @@
                 if($msg && $status=='true')
                 {
 
-                echo '<div class="alert alert-success">
+                echo '<div class="alert alert-success ">
                 <strong>Success!</strong> '.$_SESSION['msg'].'</div>';
                 unset($_SESSION['msg']);
                 unset($_SESSION['status']);
                 }
                 else if ($msg && $status=='false')
                 {
-                echo '<div class="alert alert-warning">
+                echo '<div class="alert alert-warning ">
                 <strong>Error</strong>  '.$_SESSION['msg'].'</div>';
                 unset($_SESSION['msg']);
                 unset($_SESSION['status']);
