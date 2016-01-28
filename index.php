@@ -21,7 +21,7 @@ session_start();
     <link href="css/lazylad.min.css" rel="stylesheet">
     <link href="css/lazylad-app.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href='css/animate.css' rel='stylesheet' type='text/css'>
     <!-- Custom Fonts -->
@@ -52,7 +52,7 @@ session_start();
 
 </head>
 
-<body>
+<body style="height:100%;width:100%;">
 
 <div id="navigation">
 
@@ -74,12 +74,12 @@ session_start();
 
                     <center>
                         <div class="row" style="alignment:center; ">
-                            <div class="col-md-3 col-sm-6 animated slideInRight" style="margin-left:200px;">
+                            <div class="col-md-3 col-sm-6 hidden-sm col-xs-12 animated slideInRight" style="margin-left:20%;">
                                 <!--<button class="app-store" style="background: url('img/home/hp_icons-09.png')"></button>
-                                <button class="app-store" style="background: url('img/home/hp_icons-10.png');margin-left: 10px"></button>-->
+                                <button class="app-store" style="background: url('img/home/hp_icons-10.png');"></button>-->
                                 <a href="https://play.google.com/store/apps/details?id=technologies.angular.lazylad" target="_blank"><img src="img/home/hp_icons-09.png" style="display:block;cursor:pointer;cursor:hand;"/></a></div>
-                            <div class="col-md-3 col-sm-6 col-md-offset-0 animated slideInLeft" style="padding-left:0px; ">
-                                <a href="https://itunes.apple.com/in/app/lazylad-neighborhood-shopping/id1019080985?ls=1&mt=8" target="_blank"><img src="img/home/hp_icons-10.png" style="display:block;cursor:pointer;cursor:hand;margin-left: 10px"/></a>
+                            <div class="col-md-3 col-sm-6 col-xs-12 hidden-sm col-md-offset-0 animated slideInLeft" style="padding-left:0px; margin-left:10px">
+                                <a href="https://itunes.apple.com/in/app/lazylad-neighborhood-shopping/id1019080985?ls=1&mt=8" target="_blank"><img src="img/home/hp_icons-10.png" style="display:block;cursor:pointer;cursor:hand;"/></a>
                             </div>
                         </div></center>
 
@@ -249,19 +249,19 @@ session_start();
                 <br>
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 portfolio-picture">
-                        <a href="‘Modi-Fication’-Of-Indian-Startup.html" target="_blank"><span class="portfolio-picture-name"><p style="font-size: 100%;margin-top: -16px">How to best monetise your mobile app...</p></span><img alt="" src="img/home/bg_header.jpg" height="155" width="271"></a>
+                        <a href="blog1.html" target="_blank"><span class="portfolio-picture-name"><p style="font-size: 100%;margin-top: -16px">'Modi-fication' of indian startups </p></span><img alt="" src="img/blog/b7.jpg" height="155" width="271"></a>
 
 
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 portfolio-picture">
-                        <a href="https://www.linkedin.com/pulse/5-common-traits-successful-entrepreneurs-saurabh-singla?trk=mp-reader-card" target="_blank"><span class="portfolio-picture-name"><p style="font-size: 100%;margin-top: -16px">5 common traits of successful entrepreneurs...</p></span><img alt="" src="img/home/bg_header.jpg" height="155" width="271" ></a>
+                        <a href="blog4.html" target="_blank"><span class="portfolio-picture-name"><p style="font-size: 100%;margin-top: -16px">Mobile Apps: Saviours for the modern-day lifestyle...</p></span><img alt="" src="img/blog/b9.jpg" height="155" width="271" ></a>
 
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 portfolio-picture">
-                        <a href="https://www.linkedin.com/pulse/what-drives-people-startup-saurabh-singla?trk=mp-reader-card" target="_blank"><span class="portfolio-picture-name"><p style="font-size: 100%;margin-top: -16px">H‘Modi-Fication’ Of Indian Startups</p></span><img alt="" src="img/home/bg_header.jpg"  height="155" width="271"></a>
+                        <a href="blog3.html" target="_blank"><span class="portfolio-picture-name"><p style="font-size: 100%;margin-top: -16px">Why entrepreneurs should focus on personal branding</p></span><img alt="" src="img/blog/b5.jpg"  height="155" width="271"></a>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 portfolio-picture">
-                        <a href="https://www.linkedin.com/pulse/why-chase-investments-when-you-can-bootstrap-saurabh-singla?trk=mp-reader-card" target="_blank"><span class="portfolio-picture-name"><p style="font-size: 100%;margin-top: -16px">What Drives People to Startup?</p></span><img alt="" src="img/home/bg_header.jpg" height="155" width="271"></a>
+                        <a href="blog2.html" target="_blank"><span class="portfolio-picture-name"><p style="font-size: 100%;margin-top: -16px">What Drives People to Startup?</p></span><img alt="" src="img/blog/b3.jpg" height="155" width="271"></a>
                     </div>
                 </div>
             </div>
