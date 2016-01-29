@@ -1,3 +1,4 @@
+<!-- Copyright of Lazylad -->
 <?php
 session_start();
 ?>
@@ -9,25 +10,28 @@ session_start();
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Get your daily required items like groceries, stationary and many more delivered at your doorsteps ordering from our mobile app LazyLad">
-    <meta name="author" content="aman kaushal, subhash kumar">
+    <meta name="description" content="Get your daily required items like groceries, stationary and many more delivered at your doorsteps 
+    ordering from our mobile app LazyLad">
+    <meta name="keywords" content="Lazylad, grocery, groceries, stationary, neighbourhood, Daily Shopping, neighbourhood stores, shop, lazylads,
+    gurgaon, lazylad gurgaon, ecommerce, online grocery, lazylad products, lazylad careers, startup">
+    <meta name="author" content="Aman kaushal, Subhash kumar">
 
     <title>Lazylad Home</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!--<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">-->
+    
     <!-- Custom CSS -->
     <link href="css/lazylad.min.css" rel="stylesheet">
     <link href="css/lazylad-app.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href='css/animate.css' rel='stylesheet' type='text/css'>
-    <!-- Custom Fonts -->
 
-    <!--<link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>-->
-    <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>-->
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    
     <script src="js/jquery.min.js"></script>
     <script>
         $(function(){
@@ -40,25 +44,24 @@ session_start();
     <!--[if lt IE 9]>
     <![endif]-->
     <style type="text/css">
-
-            .button
-            {
-            
+        .button
+        {
+          
             cursor:pointer;
-                        border: none;
-            }
-    
+            border: none;
+        }    
     </style>
 
 </head>
 
 <body style="height:100%;width:100%;">
 
+<!-- Navigation load from Jquery -->
 <div id="navigation">
-
 </div>
+<!-- Finish Navigation -->
 
-
+<!-- Header section -->
 <section id="intro" class="home-intro app" style="background:url('img/home/rsz_top.jpg');background-repeat:no-repeat; ;background-size:100%; padding-top: 28px">
     <div class="container intro-content" style="margin-top:0px;">
         <div class="row">
@@ -100,7 +103,9 @@ session_start();
         </div>
     </div>
 </section>
+<!-- Header Section Closed -->
 
+<!-- Main Content -->
 <div class="container">
     <center>
 
@@ -162,9 +167,7 @@ session_start();
     </center>
 
 </div>
-<hr style="border: none;height: 1px;
-
-    color: #333; background-color: #333;margin-top:25px;">
+<hr style="border: none;height: 1px;color: #333; background-color: #333;margin-top:25px;">
 
 
 <div class="container">
@@ -453,35 +456,31 @@ session_start();
 </div>
 <br>
 <br>
-<hr style="border:none;height: 1px;
-
-    color: #333; background-color: #333; width:80%; margin-bottom:45px; margin-top: 0px;">
-	<?php
+<hr style="border:none;height: 1px;color: #333; background-color: #333; width:80%; margin-bottom:45px; margin-top: 0px;">
+<?php
 
 
-                 $msg=isset($_SESSION['msg'])?$_SESSION['msg']:null;
-                 $status=isset($_SESSION['status'])?$_SESSION['status']:null;
-                if($msg && $status=='true')
-                {
-
-                echo '<center><div class="container alert alert-success fade in">
-				<strong>Success!</strong> '.$_SESSION['msg'].'</div></center>';
+    $msg=isset($_SESSION['msg'])?$_SESSION['msg']:null;
+    $status=isset($_SESSION['status'])?$_SESSION['status']:null;
+    if($msg && $status=='true')
+        {
+            echo '<center><div class="container alert alert-success fade in">
+			<strong>Success!</strong> '.$_SESSION['msg'].'</div></center>';
 			unset($_SESSION['msg']);
 			unset($_SESSION['status']);
-			}
-			else if ($msg && $status=='false')
-			{
-			echo '<center><div class=" container alert alert-warning fade in">
+		}
+		else if ($msg && $status=='false')
+		{
+        	echo '<center><div class=" container alert alert-warning fade in">
 			<strong>Error</strong>  '.$_SESSION['msg'].'</div></center>';
 			unset($_SESSION['msg']);
 			unset($_SESSION['status']);
-			}
+		}
 
+?>
 
-
-			?>
+<!-- Footer -->
 <div id="footer">
-
 </div>
 
 <!-- Bootstrap Core JavaScript -->
