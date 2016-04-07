@@ -17,26 +17,26 @@ session_start();
     <meta name="author" content="Aman kaushal, Subhash kumar">
 
     <title>Lazylad Home</title>
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-46943690-6', 'auto');
-    ga('send', 'pageview');
+        ga('create', 'UA-46943690-6', 'auto');
+        ga('send', 'pageview');
 
-</script>
+    </script>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    
+
     <!-- Custom CSS -->
     <link href="css/lazylad.min.css" rel="stylesheet">
     <link href="css/lazylad-app.css" rel="stylesheet">
@@ -47,7 +47,7 @@ session_start();
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-    
+
     <script src="js/jquery.min.js"></script>
     <script>
         $(function(){
@@ -62,10 +62,10 @@ session_start();
     <style type="text/css">
         .button
         {
-          
+
             cursor:pointer;
             border: none;
-        }    
+        }
     </style>
 
 </head>
@@ -84,27 +84,27 @@ session_start();
             <center>
                 <div class="col-md-8 pixova-product-intro"style="margin-top:33px;">
                     <div style="margin-left:66px;"><span class="intro-titles fadeInDown animated" style="color:#ffffff;font-size: 36px;">Your Neighbourhood Market on Mobile !</span>
-                    <br><br>
+                        <br><br>
 
-                    <center><p class="intro-taglines fadeInDown animated"style="color:#ffffff;font-size:18px;">
-                        Welcome to the new world order in shopping – Lazylad. Step up your shopping <br>experience today. Shop in your neighbourhood shops efficiently and fast, <br>right from your bed. Be lazy, be smart, be efficient, be what you want to be.<br> We are putting the power in your hands. </p></center>
-                    <!-- split button -->
-                    <br>
+                        <center><p class="intro-taglines fadeInDown animated"style="color:#ffffff;font-size:18px;">
+                            Welcome to the new world order in shopping – Lazylad. Step up your shopping <br>experience today. Shop in your neighbourhood shops efficiently and fast, <br>right from your bed. Be lazy, be smart, be efficient, be what you want to be.<br> We are putting the power in your hands. </p></center>
+                        <!-- split button -->
+                        <br>
 
-                    <center>
-                        <div class="row" style="alignment:center; ">
-                            <div class="col-md-3 col-sm-6 hidden-sm col-xs-12 animated slideInRight" style="margin-left:20%;">
-                                <!--<button class="app-store" style="background: url('img/home/hp_icons-09.png')"></button>
-                                <button class="app-store" style="background: url('img/home/hp_icons-10.png');"></button>-->
-                                <a href="https://play.google.com/store/apps/details?id=technologies.angular.lazylad" target="_blank"><img src="img/home/hp_icons-09.png" style="display:block;cursor:pointer;cursor:hand;"/></a></div>
-                            <div class="col-md-3 col-sm-6 col-xs-12 hidden-sm col-md-offset-0 animated slideInLeft" style="padding-left:0px; margin-left:10px">
-                                <a href="https://itunes.apple.com/in/app/lazylad-neighborhood-shopping/id1019080985?ls=1&mt=8" target="_blank"><img src="img/home/hp_icons-10.png" style="display:block;cursor:pointer;cursor:hand;"/></a>
-                            </div>
-                        </div></center>
+                        <center>
+                            <div class="row" style="alignment:center; ">
+                                <div class="col-md-3 col-sm-6 hidden-sm col-xs-12 animated slideInRight" style="margin-left:20%;">
+                                    <!--<button class="app-store" style="background: url('img/home/hp_icons-09.png')"></button>
+                                    <button class="app-store" style="background: url('img/home/hp_icons-10.png');"></button>-->
+                                    <a href="https://play.google.com/store/apps/details?id=technologies.angular.lazylad" target="_blank"><img src="img/home/hp_icons-09.png" style="display:block;cursor:pointer;cursor:hand;"/></a></div>
+                                <div class="col-md-3 col-sm-6 col-xs-12 hidden-sm col-md-offset-0 animated slideInLeft" style="padding-left:0px; margin-left:10px">
+                                    <a href="https://itunes.apple.com/in/app/lazylad-neighborhood-shopping/id1019080985?ls=1&mt=8" target="_blank"><img src="img/home/hp_icons-10.png" style="display:block;cursor:pointer;cursor:hand;"/></a>
+                                </div>
+                            </div></center>
 
 
-                    <!-- <div class="appAvailability">For Android 4.0 and above | Coming Soon for other platforms</div>-->
-                </div>
+                        <!-- <div class="appAvailability">For Android 4.0 and above | Coming Soon for other platforms</div>-->
+                    </div>
                 </div>
                 <!-- /split button -->
                 <div class="col-gl-4 col-md-4 hidden-md hidden-sm hidden-xs align-center iphone-mockup-holder">
@@ -292,7 +292,7 @@ session_start();
     $('#tabs-switch a').click(function (e) {
         e.preventDefault()
         $(this).tab('show')
-    })
+    });
 
     $(document).ready(function() {
         //Set the carousel options
@@ -313,116 +313,148 @@ session_start();
 
 
 <!--<div class="container-fluid" style="margin-top:40px;">-->
-    <!--<center><img class="img-responsive" src="img/home/team.png" width="14" height="14"/></center>-->
-    <!--<center><span style="font-size:14px;color:black;font-family: 'Roboto', sans-serif;">Team</span><br>-->
-        <!--<br>-->
-        <!--<span style="font-size:24px;color:gray;font-family: 'Roboto', sans-serif;">Founders</span><br><br>-->
-        <!--<p style="margin-top: -12px;font-size:14px;">ahfjhajfhahfj hs ha fhashf aksjfk ajskfhask hhasf hasjhfah jsfhasjh fjahsf gasgf gasfg ajgsfug asjfga u</p>-->
-        <!--<div class="row"style="background-image: linear-gradient(white, #e6e6e6);">-->
-            <!--<div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:50px;">-->
-                <!--<img src="img/home/founders.png" />-->
+<!--<center><img class="img-responsive" src="img/home/team.png" width="14" height="14"/></center>-->
+<!--<center><span style="font-size:14px;color:black;font-family: 'Roboto', sans-serif;">Team</span><br>-->
+<!--<br>-->
+<!--<span style="font-size:24px;color:gray;font-family: 'Roboto', sans-serif;">Founders</span><br><br>-->
+<!--<p style="margin-top: -12px;font-size:14px;">ahfjhajfhahfj hs ha fhashf aksjfk ajskfhask hhasf hasjhfah jsfhasjh fjahsf gasgf gasfg ajgsfug asjfga u</p>-->
+<!--<div class="row"style="background-image: linear-gradient(white, #e6e6e6);">-->
+<!--<div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:50px;">-->
+<!--<img src="img/home/founders.png" />-->
 
-            <!--</div>-->
-            <!--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 " style="margin-left:150px;">-->
-                <!--<img src="img/home/founders.png" />-->
+<!--</div>-->
+<!--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 " style="margin-left:150px;">-->
+<!--<img src="img/home/founders.png" />-->
 
-            <!--</div>-->
-            <!--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1" style="margin-left:140px;">-->
-                <!--<img  src="img/home/founders.png"/>-->
+<!--</div>-->
+<!--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1" style="margin-left:140px;">-->
+<!--<img  src="img/home/founders.png"/>-->
 
-            <!--</div>-->
-        <!--</div>-->
-        <!--<div class="row">-->
-            <!--<div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:50px;">-->
-                <!--<p style="font-size:24px;">Paresh Goel</p>-->
-                <!--<p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>-->
-            <!--</div>-->
-            <!--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 " style="margin-left:150px;">-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="row">-->
+<!--<div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:50px;">-->
+<!--<p style="font-size:24px;">Paresh Goel</p>-->
+<!--<p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>-->
+<!--</div>-->
+<!--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 " style="margin-left:150px;">-->
 
-                <!--<p style="font-size:24px;">Saurabh Singla</p>-->
-                <!--<p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>-->
-            <!--</div>-->
-            <!--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1" style="margin-left:140px;">-->
+<!--<p style="font-size:24px;">Saurabh Singla</p>-->
+<!--<p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>-->
+<!--</div>-->
+<!--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1" style="margin-left:140px;">-->
 
-                <!--<p style="font-size:24px;">Ajay Sethi</p>-->
-                <!--<p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>-->
-            <!--</div>-->
+<!--<p style="font-size:24px;">Ajay Sethi</p>-->
+<!--<p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>-->
+<!--</div>-->
 
-        <!--</div>-->
-        <!--<br>-->
-        <!--<span style="font-size:24px;color:gray;font-family: 'Roboto', sans-serif;">Founders</span><br><br>-->
-        <!--<p style="margin-top: -12px;font-size:14px;">ahfjhajfhahfj hs ha fhashf aksjfk ajskfhask hhasf hasjhfah jsfhasjh fjahsf gasgf gasfg ajgsfug asjfga u</p>-->
-        <!--<div class="row"style="background-image: linear-gradient(white, #e6e6e6);">-->
-            <!--<div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:50px;">-->
-                <!--<img src="img/home/founders.png" />-->
+<!--</div>-->
+<!--<br>-->
+<!--<span style="font-size:24px;color:gray;font-family: 'Roboto', sans-serif;">Founders</span><br><br>-->
+<!--<p style="margin-top: -12px;font-size:14px;">ahfjhajfhahfj hs ha fhashf aksjfk ajskfhask hhasf hasjhfah jsfhasjh fjahsf gasgf gasfg ajgsfug asjfga u</p>-->
+<!--<div class="row"style="background-image: linear-gradient(white, #e6e6e6);">-->
+<!--<div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:50px;">-->
+<!--<img src="img/home/founders.png" />-->
 
-            <!--</div>-->
-            <!--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 " style="margin-left:150px;">-->
-                <!--<img src="img/home/founders.png" />-->
+<!--</div>-->
+<!--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 " style="margin-left:150px;">-->
+<!--<img src="img/home/founders.png" />-->
 
-            <!--</div>-->
-            <!--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1" style="margin-left:140px;">-->
-                <!--<img src="img/home/founders.png" />-->
+<!--</div>-->
+<!--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1" style="margin-left:140px;">-->
+<!--<img src="img/home/founders.png" />-->
 
-            <!--</div>-->
-        <!--</div>-->
-        <!--<div class="row">-->
-            <!--<div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:50px;">-->
-                <!--<p style="font-size:24px;">Paresh Goel</p>-->
-                <!--<p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>-->
-            <!--</div>-->
-            <!--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 " style="margin-left:150px;">-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="row">-->
+<!--<div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:50px;">-->
+<!--<p style="font-size:24px;">Paresh Goel</p>-->
+<!--<p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>-->
+<!--</div>-->
+<!--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 " style="margin-left:150px;">-->
 
-                <!--<p style="font-size:24px;">Saurabh Singla</p>-->
-                <!--<p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>-->
-            <!--</div>-->
-            <!--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1" style="margin-left:140px;">-->
+<!--<p style="font-size:24px;">Saurabh Singla</p>-->
+<!--<p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>-->
+<!--</div>-->
+<!--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1" style="margin-left:140px;">-->
 
-                <!--<p style="font-size:24px;">Ajay Sethi</p>-->
-                <!--<p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>-->
-            <!--</div>-->
+<!--<p style="font-size:24px;">Ajay Sethi</p>-->
+<!--<p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>-->
+<!--</div>-->
 
-        <!--</div>-->
-        <!--<br>-->
+<!--</div>-->
+<!--<br>-->
 
-        <!--<span style="font-size:24px;color:gray;font-family: 'Roboto', sans-serif;">Founders</span><br><br>-->
-        <!--<p style="margin-top: -12px;font-size:14px;">ahfjhajfhahfj hs ha fhashf aksjfk ajskfhask hhasf hasjhfah jsfhasjh fjahsf gasgf gasfg ajgsfug asjfga u</p>-->
-        <!--<div class="row"style="background-image: linear-gradient(white, #e6e6e6);">-->
-            <!--<div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:50px;">-->
-                <!--<img src="img/home/founders.png" />-->
+<!--<span style="font-size:24px;color:gray;font-family: 'Roboto', sans-serif;">Founders</span><br><br>-->
+<!--<p style="margin-top: -12px;font-size:14px;">ahfjhajfhahfj hs ha fhashf aksjfk ajskfhask hhasf hasjhfah jsfhasjh fjahsf gasgf gasfg ajgsfug asjfga u</p>-->
+<!--<div class="row"style="background-image: linear-gradient(white, #e6e6e6);">-->
+<!--<div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:50px;">-->
+<!--<img src="img/home/founders.png" />-->
 
-            <!--</div>-->
-            <!--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 " style="margin-left:150px;">-->
-                <!--<img src="img/home/founders.png" />-->
+<!--</div>-->
+<!--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 " style="margin-left:150px;">-->
+<!--<img src="img/home/founders.png" />-->
 
-            <!--</div>-->
-            <!--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1" style="margin-left:140px;">-->
-                <!--<img src="img/home/founders.png" />-->
+<!--</div>-->
+<!--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1" style="margin-left:140px;">-->
+<!--<img src="img/home/founders.png" />-->
 
-            <!--</div>-->
-        <!--</div>-->
-        <!--<div class="row">-->
-            <!--<div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:50px;">-->
-                <!--<p style="font-size:24px;">Paresh Goel</p>-->
-                <!--<p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>-->
-            <!--</div>-->
-            <!--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 " style="margin-left:150px;">-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="row">-->
+<!--<div class="col-md-3 col-md-offset-0 col-lg-3 col-lg-offset-0" style="margin-left:50px;">-->
+<!--<p style="font-size:24px;">Paresh Goel</p>-->
+<!--<p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>-->
+<!--</div>-->
+<!--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 " style="margin-left:150px;">-->
 
-                <!--<p style="font-size:24px;">Saurabh Singla</p>-->
-                <!--<p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>-->
-            <!--</div>-->
-            <!--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1" style="margin-left:140px;">-->
+<!--<p style="font-size:24px;">Saurabh Singla</p>-->
+<!--<p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>-->
+<!--</div>-->
+<!--<div class="col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1" style="margin-left:140px;">-->
 
-                <!--<p style="font-size:24px;">Ajay Sethi</p>-->
-                <!--<p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>-->
-            <!--</div>-->
+<!--<p style="font-size:24px;">Ajay Sethi</p>-->
+<!--<p style="margin-top: -30px;font-size: 18px;font-family: 'Roboto', sans-serif;">Co Founder</p>-->
+<!--</div>-->
 
-        <!--</div>-->
+<!--</div>-->
 <!--</center></div><br><br>-->
 
 <!--</div>-->
 
+<script>
+   // $.('get-app-buttons').click(console.log("adasda"));
+    function sendSMS(){
+        var phone=document.getElementById('user-phone-value').value;
+        console.log(phone);
+//        phone=phone?phone:null;
+        var msg="Download Lazylad app on your device using the link bit.ly/shoplazy ";
 
+        var url = "http://angulartechnologies.com/newserver/oms/send_sms";
+        var data={"message":msg,"send_to":phone};
+
+        $.post(url,data,function() {
+            alert("gaya");
+        })
+            /*if(err)
+              alert("Internal Error");
+            else
+              alert("Successfully Send");*/
+
+            .done(function(){
+                alert("Message sent successfully");
+            })
+
+                    .fail(function(){
+                        alert("Message sending failed");
+                    });
+
+        //});
+
+
+    }
+
+</script>
 <div class="banner img-responsive" style="background:url('img/rsz_bottom.jpg');background-repeat:no-repeat;background-size:cover; ;height: 500px ;margin-top:50px; ">
     <div class="container">
         <div class="row">
@@ -431,15 +463,13 @@ session_start();
                     <div class="page-heading" style="margin-top:17%;">
                         <h2 style="color:white;font-size:36px;">Get the App</h2>
                         <div >
-                               <div style="margin-top:60px;" ><input style="font-size:22px; padding-left:20px; border:none;height:55px;width:280px;background-color:black;color: #FFF;border-bottom-left-radius:8px;border-top-left-radius:8px; " type="tel" id="user-phone-value" placeholder="Enter phone number" maxlength="10"
-                                              onkeypress="return event.charCode > 47 &amp;&amp; event.charCode < 58;" pattern="[0-9]{5}"
-                                              onkeydown="if (event.keyCode == 13) $('.get-app').click()">
+                            <div style="margin-top:60px;" ><input style="font-size:22px; padding-left:20px; border:none;height:55px;width:280px;background-color:black;color: #FFF;border-bottom-left-radius:8px;border-top-left-radius:8px; " type="tel" id="user-phone-value" placeholder="Enter phone number" maxlength="10"
+                                                                  onkeypress="return event.charCode > 47 &amp;&amp; event.charCode < 58;" pattern="[0-9]{5}"
+                                                                  onkeydown="if (event.keyCode == 13) $('.get-app').click();">
+                                <button  onclick="sendSMS()" title="and chill" id="get-app-buttons" style="font-size:18px; margin-left:3px; border:none;height:54px;width:100px;background-color:black;color: #FFF;border-bottom-right-radius:5px;border-top-right-radius:5px; " class="">Get App</button>
+                            </div>      </div>
 
 
-                               <button  title="and chill" id="get-app-buttons" style="font-size:18px; margin-left:3px; border:none;height:54px;width:100px;background-color:black;color: #FFF;border-bottom-right-radius:5px;border-top-right-radius:5px; " type="submit" class="">Get App</button>
-                           </div>      </div>
-
- 
 
                         <!--<img src="img/home/bottom1.png"/>--><br><br>
                         <a href="https://play.google.com/store/apps/details?id=technologies.angular.lazylad" target="_blank" style="text-decoration:none;"><img src="img/home/bottom-android.png" height="60px"  width="200px" style="cursor:pointer;cursor:hand;" /></a>&nbsp; &nbsp; &nbsp;<a href="https://itunes.apple.com/in/app/lazylad-neighborhood-shopping/id1019080985?ls=1&mt=8" target="_blank" style="text-decoration:none"><img src="img/home/bottom-ios.png"  height="60px"  width="200px" style="cursor:pointer;cursor:hand;"/></a>
@@ -481,17 +511,17 @@ session_start();
     if($msg && $status=='true')
         {
             echo '<center><div class="container alert alert-success fade in">
-			<strong>Success!</strong> '.$_SESSION['msg'].'</div></center>';
-			unset($_SESSION['msg']);
-			unset($_SESSION['status']);
-		}
-		else if ($msg && $status=='false')
-		{
-        	echo '<center><div class=" container alert alert-warning fade in">
-			<strong>Error</strong>  '.$_SESSION['msg'].'</div></center>';
-			unset($_SESSION['msg']);
-			unset($_SESSION['status']);
-		}
+    <strong>Success!</strong> '.$_SESSION['msg'].'</div></center>';
+unset($_SESSION['msg']);
+unset($_SESSION['status']);
+}
+else if ($msg && $status=='false')
+{
+echo '<center><div class=" container alert alert-warning fade in">
+    <strong>Error</strong>  '.$_SESSION['msg'].'</div></center>';
+unset($_SESSION['msg']);
+unset($_SESSION['status']);
+}
 
 ?>
 
